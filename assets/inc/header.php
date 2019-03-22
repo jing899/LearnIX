@@ -1,5 +1,5 @@
 <!-- LEARNIX -->
-<!-- Rachel Bogdany -->
+<!-- Rachael Bogdany -->
 <!-- Jon Healy -->
 <!-- Lowell Pence -->
 <!-- Shoujing Wu -->
