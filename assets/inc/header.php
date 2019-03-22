@@ -12,4 +12,14 @@
 	<script type="text/javascript" src="<?php echo $path;?>assets/script/main.js"></script>
 </head>
 <body>
-	<p>This is the start of the body</p>
+	<header>
+		<nav id="nav"> 
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a>Novice</a></li>
+				<li><a>Intermediate</a></li>
+				<li><a>Advanced</a></li>
+				<li><a>About</a></li>
+			</ul>
+		</nav>
+	</header>
