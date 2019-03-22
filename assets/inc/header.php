@@ -1,8 +1,11 @@
-<!-- LEARNIX -->
-<!-- Rachael Bogdany -->
-<!-- Jon Healy -->
-<!-- Lowell Pence -->
-<!-- Shoujing Wu -->
+<!-- LEARNIX 
+	
+Filename:	header.php
+Authors: 	Rachael Bogdany
+			Jon Healy
+			Lowell Pence
+			Shoujing Wu 
+-->
 
 <!DOCTYPE html>
 <html lang="en">

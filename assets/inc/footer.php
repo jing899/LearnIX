@@ -1,9 +1,12 @@
-<!-- LEARNIX -->
-<!-- Rachael Bogdany -->
-<!-- Jon Healy -->
-<!-- Lowell Pence -->
-<!-- Shoujing Wu -->
+<!-- LEARNIX 
 	
-	<footer>This is the footer</footer>
+Filename:	footer.php
+Authors: 	Rachael Bogdany
+			Jon Healy
+			Lowell Pence
+			Shoujing Wu 
+-->
+	
+	<footer>&copy; LearnIX</footer>
 </body>
 </html>
