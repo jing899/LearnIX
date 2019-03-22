@@ -16,6 +16,7 @@ Authors: 	Rachael Bogdany
 </head>
 <body>
 	<header>
+		<img src="<?php echo $path;?>assets/img/logo.jpg" alt="Logo"/>
 		<nav id="nav"> 
 			<ul>
 				<li><a href="">Home</a></li>
