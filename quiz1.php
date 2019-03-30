@@ -54,7 +54,7 @@ Authors: 	Rachael Bogdany
 	<input type="radio" name ="remove" value = "correct" id="rmdir"/> <label for="rmdir">rmdir users</label><br>
 	<input type="radio" name ="remove" value = "wrong" id="deldir"/> <label for="deldir">deldir users</label><br>
 	
-	<input type="submit"  name="Su bmit"  value="Send"  />
+	<input type="submit"  name="Submit"  value="Send"  />
 
 </form>
 
