@@ -12,6 +12,20 @@ Authors: 	Rachael Bogdany
 	$page = 'Homepage';
 	include $path.'assets/inc/header.php';
 ?>
+<h1>Learn with LearnIX</h1>
+<p></p>
+<div class="buttons">
+	<h2>Novice</h2>
+	<h5>Tutorials</h5>
+</div>
+<div class="buttons">
+	<h2>Intermediate</h2>
+	<h5>Tutorials</h5>
+</div>
+<div class="buttons">
+	<h2>Advanced</h2>
+	<h5>Tutorials</h5>
+</div>
 <?php
 	//include the footer
 	include $path.'assets/inc/footer.php';
