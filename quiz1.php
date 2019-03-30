@@ -11,7 +11,7 @@ Authors: 	Rachael Bogdany
 	//include the header
 	$path = './';
 	$page = 'Quiz 1';
-	include $path.'header.php';
+	include $path.'assets/inc/header.php';
 ?>
 
 <form name = "quiz1" onsubmit="validateQuiz()" method = "get">
@@ -60,6 +60,6 @@ Authors: 	Rachael Bogdany
 
 <?php
 	//include the footer
-	include $path.'footer.php';
+	include $path.'assets/inc/footer.php';
 ?>
 
