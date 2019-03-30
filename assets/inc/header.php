@@ -50,7 +50,6 @@ Authors: 	Rachael Bogdany
 						<li><a>Regular Expressions</a></li>
 						<li><a>Users</a></li>
 						<li><a>Advanced Commands</a></li>
-						<li><a></a></li>
 					</ul>
 				</li>
 				<li><a>About</a>
