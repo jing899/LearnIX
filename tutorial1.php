@@ -12,6 +12,15 @@ Authors: 	Rachael Bogdany
 	$page = 'Navigation';
 	include $path.'assets/inc/header.php';
 ?>
+<div class="content">
+	<h2></h2>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+</div>
 <?php
 	//include the footer
 	include $path.'assets/inc/footer.php';
