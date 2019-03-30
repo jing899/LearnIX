@@ -19,13 +19,13 @@ Authors: 	Rachael Bogdany
 		<img src="<?php echo $path;?>assets/img/logo.jpg" alt="Logo"/>
 		<nav id="nav"> 
 			<ul>
-				<li><a href="">Home</a>
+				<li><a href="">HOME</a>
 					<ul>
 						<li><a>Unix Architecture</a></li>
 						<li><a>Kernel v.s. Shell</a></li>
 					</ul>
 				</li>
-				<li><a>Novice</a>
+				<li><a>NOVICE</a>
 					<ul>
 						<li><a>Navigation</a></li>
 						<li><a>File Creation</a></li>
@@ -34,7 +34,7 @@ Authors: 	Rachael Bogdany
 						<li><a>Basics</a></li>
 					</ul>
 				</li>
-				<li><a>Intermediate</a>
+				<li><a>INTERMEDIATE</a>
 					<ul>
 						<li><a>System Information</a></li>
 						<li><a>Pip/Yum</a></li>
@@ -44,7 +44,7 @@ Authors: 	Rachael Bogdany
 						<li><a>Commands</a></li>
 					</ul>
 				</li>
-				<li><a>Advanced</a>
+				<li><a>ADVANCED</a>
 					<ul>
 						<li><a>Advanced Programs</a></li>
 						<li><a>Regular Expressions</a></li>
@@ -52,7 +52,7 @@ Authors: 	Rachael Bogdany
 						<li><a>Advanced Commands</a></li>
 					</ul>
 				</li>
-				<li><a>About</a>
+				<li><a>ABOUT</a>
 					<ul>
 						<li><a>Content Citations</a></li>
 						<li><a>Competitive Analysis Citations</a></li>

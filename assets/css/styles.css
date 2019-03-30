@@ -6,7 +6,10 @@ Authors: 	Rachael Bogdany
 			Lowell Pence
 			Shoujing Wu 
 */
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Ubuntu');
+body{
+	font-family: Montserrat;
+}
 @media only screen and (min-width: 951px){
 	
 }
