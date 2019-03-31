@@ -14,13 +14,12 @@ Authors: 	Rachael Bogdany
 	include $path.'assets/inc/header.php';
 ?>
 
-<form name = "quiz1" onsubmit="validateQuiz()" method = "get">
+<form name = "quiz1" onsubmit="return validateQuiz1()" action = "#" method = "get">
 	<h1>Novice Quiz</h1>
 	<p>Test your knowledge on unix navigation and files with the following questions</p>
 	
 	<h2>Question 1:</h2>
 	<p>What is the correct command syntax to navigate up one level?</p>
-	
 	<input type="radio" name ="upOne" value = "wrong" id="cd*"/> <label for="cd*">cd *</label><br>
 	<input type="radio" name ="upOne" value = "wrong" id="cdUp"/> <label for="cdUp">cd up</label><br>
 	<input type="radio" name ="upOne" value = "correct" id="cd.."/> <label for="cd..">cd ..</label><br>
@@ -40,14 +39,14 @@ Authors: 	Rachael Bogdany
 	<input type="radio" name ="create" value = "wrong" id="mkf"/> <label for="mkf">mkf testing.txt</label><br>
 	<input type="radio" name ="create" value = "correct" id="touch"/> <label for="touch">touch testing.txt</label><br>
 	
-	<h2>Question 4</h2>
+	<h2 id = "qs4">Question 4</h2>
 	<p>What is the command syntax to list all sub-directories in the current directory</p>
 	<input type="radio" name ="list" value = "wrong" id="listDirs"/> <label for="listDirs">list dirs</label><br>
 	<input type="radio" name ="list" value = "correct" id="listD"/> <label for="listD">list -d</label><br>
 	<input type="radio" name ="list" value = "wrong" id="listAll"/> <label for="listAll">listall</label><br>
 	<input type="radio" name ="list" value = "wrong" id="list"/> <label for="list">listall -d /.</label><br>
 	
-	<h2>Question 5</h2>
+	<h2 id = "qs5">Question 5</h2>
 	<p>What is the correct command syntax to remove a directory called users?</p>
 	<input type="radio" name ="remove" value = "wrong" id="rmd"/> <label for="rmd">remove dir users</label><br>
 	<input type="radio" name ="remove" value = "wrong" id="rm"/> <label for="rm">rm -d users</label><br>
