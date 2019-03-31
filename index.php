@@ -27,7 +27,7 @@ Authors: 	Rachael Bogdany
 		<h2>Advanced</h2>
 		<h5>Tutorials</h5>
 	</div>
-</content>
+</div>
 <?php
 	//include the footer
 	include $path.'assets/inc/footer.php';
