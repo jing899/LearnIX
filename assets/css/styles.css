@@ -14,9 +14,7 @@ body {
 }
 
 /*logo*/
-#logo{
-    float: left;
-}
+#logo{float: left;}
 
 #logosize{
     width: 30%;
@@ -92,6 +90,7 @@ nav li.dropdown {
     text-align: left;
     font-size: 3em;
     grid-area: main_title;
+    margin-left: 5vw;
     /*    margin:auto;*/
 }
 
@@ -99,6 +98,7 @@ nav li.dropdown {
     text-align: left;
     line-height: 1.5em;
     grid-area: overview;
+    margin-right: 5vw;
     /*    margin: auto;*/
 }
 
@@ -106,23 +106,24 @@ nav li.dropdown {
 #button_int{grid-area: button_int;}
 #button_adv{grid-area: button_adv;}
 
-.empty{grid-area: empty;}
-.empty2{grid-area: empty2;}
-.empty3{
-    grid-area: empty3;
-    height: 3vh;}
+.empty{grid-area: empty; border-right: 3px solid orange;}
+.empty2{grid-area: empty2; border-left: 3px solid orange;}
+.empty3{grid-area: empty3; height: 3vh;}
 
 .buttons{
     width: 20vw;
     height: 20vh;
     text-align: center;
+    margin-bottom: 3%;
 }
 
 #button_nov:hover{background-color: rgba(102,175,233,0.6);}
 #button_int:hover{background-color: rgba(129,191,176,0.6);}
 #button_adv:hover{background-color: rgba(151,192,96,0.6);}
 
-.content > div {
+.buttons a{
+    text-decoration: none;
+    text-align: center;
     margin: auto;
 }
 
@@ -135,7 +136,7 @@ nav li.dropdown {
         "empty main_title overview overview empty2"
         "empty empty3 empty3 empty3 empty2"
         "empty button_nov button_int button_adv empty2";
-    grid-gap: 10px;
+    grid-gap: 15px;
 }
 
 /*footer*/
