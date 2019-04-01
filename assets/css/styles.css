@@ -2,9 +2,9 @@
 
 Filename:	index.php
 Authors: 	Rachael Bogdany
-			Jon Healy
-			Lowell Pence
-			Shoujing Wu
+Jon Healy
+Lowell Pence
+Shoujing Wu
 */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Ubuntu');
 
@@ -13,15 +13,35 @@ body {
     font-size: 16px;
 }
 
+/*logo*/
+#logo{
+    float: left;
+}
+
+#logosize{
+    width: 30%;
+    margin-left: 10vw;
+}
+
+/*global nav*/
+nav{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    width: 80vw;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    height: 13vh;
 }
 
 nav li {
-    float: left;
+    float: right;
     color: black;
 }
 
@@ -66,6 +86,60 @@ nav li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/*index page*/
+#main_title{
+    text-align: left;
+    font-size: 3em;
+    grid-area: main_title;
+    /*    margin:auto;*/
+}
+
+#overview{
+    text-align: left;
+    line-height: 1.5em;
+    grid-area: overview;
+    /*    margin: auto;*/
+}
+
+#button_nov{grid-area: button_nov;}
+#button_int{grid-area: button_int;}
+#button_adv{grid-area: button_adv;}
+
+.empty{grid-area: empty;}
+.empty2{grid-area: empty2;}
+.empty3{
+    grid-area: empty3;
+    height: 3vh;}
+
+.buttons{
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+}
+
+#button_nov:hover{background-color: rgba(102,175,233,0.6);}
+#button_int:hover{background-color: rgba(129,191,176,0.6);}
+#button_adv:hover{background-color: rgba(151,192,96,0.6);}
+
+.content > div {
+    margin: auto;
+}
+
+.content{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "empty main_title overview overview empty2"
+        "empty empty3 empty3 empty3 empty2"
+        "empty button_nov button_int button_adv empty2";
+    grid-gap: 10px;
+}
+
+/*footer*/
+#copyright{text-align: center;}
 
 @media only screen and (min-width: 951px){
 

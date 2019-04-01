@@ -1,34 +1,35 @@
 <!-- LEARNIX 
-	
+
 Filename:	index.php
 Authors: 	Rachael Bogdany
-			Jon Healy
-			Lowell Pence
-			Shoujing Wu 
+Jon Healy
+Lowell Pence
+Shoujing Wu 
 -->
 <?php
-	//include the header
-	$path = './';
-	$page = 'Homepage';
-	include $path.'assets/inc/header.php';
+//include the header
+$path = './';
+$page = 'Homepage';
+include $path.'assets/inc/header.php';
 ?>
 <div class="content">
-	<h1>Learn with LearnIX</h1>
-	<p></p>
-	<div class="buttons">
-		<h2>Novice</h2>
-		<h5>Tutorials</h5>
-	</div>
-	<div class="buttons">
-		<h2>Intermediate</h2>
-		<h5>Tutorials</h5>
-	</div>
-	<div class="buttons">
-		<h2>Advanced</h2>
-		<h5>Tutorials</h5>
-	</div>
+    <div class="empty"></div>
+    <h1 id="main_title">Learn<br/>with<br/>LearnIX<br/></h1>
+    <p id="overview">LearnIX is a tutorial website that aims to teach users how to use Unix through quizzes, and interactive activities. LearnIX starts with very simple concepts, teaching users how to navigate the Unix command line and then moves into increasingly more complex ideas for advanced users. A smooth layout allows users to go through tutorials at their own pace and includes a reference page for users to be able to quickly find a command they might need. The site is aimed toward Unix with the purpose of Web Development, and is perfect for anyone from novice to advanced.</p>
+    <div class="empty2"></div>
+    <div class="buttons" id="button_nov">
+        <h2>Novice<br/>Tutorials</h2>
+    </div>
+    <div class="buttons" id="button_int">
+        <h2>Intermediate<br/>Tutorials</h2>
+    </div>
+    <div class="buttons" id="button_adv">
+        <h2>Advanced<br/>Tutorials</h2>
+    </div>
+    <div class="empty3"></div>
+
 </div>
 <?php
-	//include the footer
-	include $path.'assets/inc/footer.php';
+//include the footer
+include $path.'assets/inc/footer.php';
 ?>

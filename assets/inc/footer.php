@@ -7,6 +7,6 @@ Authors: 	Rachael Bogdany
 			Shoujing Wu 
 -->
 	
-	<footer>&copy; LearnIX</footer>
+	<footer id="copyright">&copy; LearnIX</footer>
 </body>
 </html>
