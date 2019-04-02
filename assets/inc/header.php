@@ -21,8 +21,15 @@ Shoujing Wu
                     <li class="dropdown"><a class="dropbtn">ABOUT</a>
                         <div class="dropdown-content">
                             <a>Content Citations</a>
-                            <a>Competitive Analysis Citations</a>
+                            <a>Analysis Citations</a>
                         </div>
+                    </li>
+					<li class="dropdown"><a class="dropbtn">QUIZZES</a>
+                        <div class="dropdown-content">
+							<a>Novice</a>
+							<a>Intermediate</a>
+							<a>Advanced</a>
+						</div>
                     </li>
                     <li class="dropdown"><a class="dropbtn">ADVANCED</a>
                         <div class="dropdown-content">

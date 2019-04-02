@@ -11,16 +11,19 @@ Authors: 	Rachael Bogdany
 	$path = '../';
 	$page = 'Regular Expressions';
 	include $path.'assets/inc/header.php';
+	//include content
+	require $path.'../../../240DBConn2185.php';
+	$sql = "SELECT content FROM learnix WHERE page='" . $page. "'";
+	$result = $conn->query($sql);
+	if($result->num_rows > 0){
+		while($row = $result->FETCH_ASSOC()){
+			echo $row['content'];
+		}
+	}
+	else{
+		echo '0 results, you did something wrong';
+	}
 ?>
-<div class="content">
-	<h2></h2>
-	<p></p>
-	<p></p>
-	<p></p>
-	<p></p>
-	<p></p>
-	<p></p>
-</div>
 <?php
 	//include the footer
 	include $path.'assets/inc/footer.php';
