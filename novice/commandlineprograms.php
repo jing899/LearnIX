@@ -1,6 +1,6 @@
 <!-- LEARNIX 
 	
-Filename:	tutorial1.php
+Filename:	commandlineprograms.php
 Authors: 	Rachael Bogdany
 			Jon Healy
 			Lowell Pence
@@ -8,8 +8,8 @@ Authors: 	Rachael Bogdany
 -->
 <?php
 	//include the header
-	$path = './';
-	$page = 'Navigation';
+	$path = '../';
+	$page = 'Command line Programs';
 	include $path.'assets/inc/header.php';
 ?>
 <div class="content">

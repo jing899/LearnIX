@@ -1,5 +1,6 @@
 <!-- LEARNIX 
-Filename:	tutorial2.php
+	
+Filename:	advancedcommands.php
 Authors: 	Rachael Bogdany
 			Jon Healy
 			Lowell Pence
@@ -7,8 +8,8 @@ Authors: 	Rachael Bogdany
 -->
 <?php
 	//include the header
-	$path = './';
-	$page = 'File Creation';
+	$path = '../';
+	$page = 'Advanced Commands';
 	include $path.'assets/inc/header.php';
 ?>
 <div class="content">
