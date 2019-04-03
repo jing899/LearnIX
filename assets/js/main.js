@@ -18,43 +18,30 @@ function validateQuiz1() {
 	q4 = document.forms["quiz1"]["list"].value;
 	q5 = document.forms["quiz1"]["remove"].value;
 	
-	//Test to see if question was skipped
-	if(q1 == "") {
-		alert("Question 1 cannot be blank!");
-		return false;
-	}else if(q2 == "") {
-		alert("Question 2 cannot be blank!");
-		return false;
-	}else if(q3 == "") {
-		alert("Question 3 cannot be blank!");
-		return false;
-	}else if(q4 == "") {
-		alert("Question 4 cannot be blank!");
-		return false;
-	}else if(q5 == "") {
-		alert("Question 5 cannot be blank!");
-		return false;
-	}
-	
 	//The folowing if statements check if the input is incorrect. If so, it highlights the correct choice on the doc
 	if(q1 != "correct") {
-		document.getElementsByTagName("label")[2].style.backgroundColor = " #7cfc00";
+		document.getElementsByTagName("label")[2].style.backgroundColor = "#7cfc00";
+		document.getElementById("q1").style.backgroundColor = "#CC0202";
 	}
 	
 	if(q2 != "correct") {
 		document.getElementsByTagName("label")[4].style.backgroundColor = "#7cfc00";
+		document.getElementById("q2").style.backgroundColor = "#CC0202";
 	}
 	
 	if(q3 != "correct") {
 		document.getElementsByTagName("label")[11].style.backgroundColor = "#7cfc00";
+		document.getElementById("q3").style.backgroundColor = "#CC0202";
 	}
 	
 	if(q4 != "correct") {
 		document.getElementsByTagName("label")[13].style.backgroundColor = "#7cfc00";
+		document.getElementById("q4").style.backgroundColor = "#CC0202";
 	}
 	
 	if(q5 != "correct") {
 		document.getElementsByTagName("label")[18].style.backgroundColor = "#7cfc00";
+		document.getElementById("q5").style.backgroundColor = "#CC0202";
 	}
 	
 	return false;
