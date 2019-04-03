@@ -14,9 +14,9 @@ function validateQuiz1() {
 	//Quiz questions 1-5
 	q1 = document.forms["quiz1"]["upOne"].value;
 	q2 = document.forms["quiz1"]["curPath"].value;
-	q3 = document.forms["quiz1"]["create"].value;
+	q3 = document.forms["quiz1"]["home"].value;
 	q4 = document.forms["quiz1"]["list"].value;
-	q5 = document.forms["quiz1"]["remove"].value;
+	q5 = document.forms["quiz1"]["root"].value;
 	
 	//The folowing if statements check if the input is incorrect. If so, it highlights the correct choice on the doc
 	if(q1 != "correct") {
