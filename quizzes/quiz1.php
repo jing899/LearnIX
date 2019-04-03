@@ -10,14 +10,13 @@ Authors: 	Rachael Bogdany
 <?php
 	//include the header
 	$path = '../';
-	$page = 'Quiz 1';
+	$page = 'Novice Navigation Quiz';
 	include $path.'assets/inc/header.php';
 ?>
 
 <form name = "quiz1" action="#" method = "get">
-	<h1>Novice Quiz</h1>
-	<p>Test your knowledge on unix navigation and files with the following questions</p>
-	
+	<div id="quizForm">
+	<h1>Novice Navigation Quiz</h1>
 	<!--
 		The nameing convention for quiz question id's is as follows: Question # Answer #
 		For example Question 2 Answer 4's id would be: "q2a4"
@@ -79,7 +78,7 @@ Authors: 	Rachael Bogdany
 	<input type="radio" name ="root" value = "q5a4" id="q5a4"/> <label for="q5a4">cd ~</label><br>
 	
 	<input type="submit"  name="Submit" onclick="validateQuiz1()"  value="Send"  />
-
+	</div>
 </form>
 
 <?php
