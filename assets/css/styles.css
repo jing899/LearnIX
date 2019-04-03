@@ -1,5 +1,4 @@
 /* LEARNIX
-
 Filename:	index.php
 Authors: 	Rachael Bogdany
 Jon Healy
@@ -137,6 +136,16 @@ nav li.dropdown {
         "empty empty3 empty3 empty3 empty2"
         "empty button_nov button_int button_adv empty2";
     grid-gap: 15px;
+}
+
+/*CSS for quizes*/
+.textBox {
+	float: right;
+	visibility: hidden;
+}
+
+#quizForm{
+	float: left;
 }
 
 /*footer*/
