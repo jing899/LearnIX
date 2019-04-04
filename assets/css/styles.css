@@ -191,8 +191,6 @@ input[type="submit"]{
     #main_title{
         text-align: center;
         margin: auto;
-        padding-bottom: 3%;
-        border-bottom: 3px solid orange;
     }
 
     #overview{
@@ -202,6 +200,8 @@ input[type="submit"]{
         font-size: 13px; 
         padding-top: 3%;
         padding-bottom: 3%;
+        border-bottom: 3px solid orange;
+        border-top: 3px solid orange;
     }
 
     #button_nov{background-color: rgba(102,175,233,0.6);}
@@ -222,11 +222,13 @@ input[type="submit"]{
         grid-template-columns: 1fr;
         grid-template-areas:
             "main_title"
+            "overview"
             "button_nov" 
             "button_int" 
-            "button_adv"
-            "overview";
+            "button_adv";
     }
+    
+    #copyright{padding-top: 3%;}
 }
 
 @media only screen and (min-width: 501px) and (max-width: 950px){
