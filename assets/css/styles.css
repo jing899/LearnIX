@@ -139,29 +139,41 @@ nav li.dropdown {
 }
 
 /*CSS for quizes*/
-.textBox {
+.helpText {
 	float: right;
+	padding-right: 35%;
+	display: inline;
 	visibility: hidden;
 }
 
-#quizForm{
-	float: left;
-}
-
-h1 {
+/* The h1 elements on quizes */
+.qh1{
 	margin-left: 6%;
 }
 
-h2{
-	margin-left: 8%;
+/* The h2 elements on quizes */
+.qh2{
+	margin-left:8%;
+	margin-top: 4%;
 }
 
-p{
+/* The p elements on quizes */
+.qP{
+	margin-left: 9%;
+}
+
+/* The radio button input elements on quizes */
+input[type="radio"]{
+  margin-left: 11%;
+  margin-top: 1%;
+}
+
+/* The submit button on quizes */
+input[type="submit"]{
 	margin-left: 11%;
-}
-
-input{
-	margin-left: 13%;
+	margin-top: 3%;
+	padding: .75%;
+	border-radius: 20px;
 }
 
 /*footer*/
