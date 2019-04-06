@@ -140,53 +140,105 @@ nav li.dropdown {
 
 /*CSS for quizes*/
 .helpText {
-	float: right;
-	padding-right: 35%;
-	display: inline;
-	visibility: hidden;
+    float: right;
+    padding-right: 35%;
+    display: inline;
+    visibility: hidden;
 }
 
 /* The h1 elements on quizes */
 .qh1{
-	margin-left: 6%;
+    margin-left: 6%;
 }
 
 /* The h2 elements on quizes */
 .qh2{
-	margin-left:8%;
-	margin-top: 4%;
+    margin-left:8%;
+    margin-top: 4%;
 }
 
 /* The p elements on quizes */
 .qP{
-	margin-left: 9%;
+    margin-left: 9%;
 }
 
 /* The radio button input elements on quizes */
 input[type="radio"]{
-  margin-left: 11%;
-  margin-top: 1%;
+    margin-left: 11%;
+    margin-top: 1%;
 }
 
 /* The submit button on quizes */
 input[type="submit"]{
-	margin-left: 11%;
-	margin-top: 3%;
-	padding: .75%;
-	border-radius: 20px;
+    margin-left: 11%;
+    margin-top: 3%;
+    padding: .75%;
+    border-radius: 20px;
 }
 
 /*footer*/
 #copyright{text-align: center;}
 
-@media only screen and (min-width: 951px){
 
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+    /*index page*/
+    #main_title{
+        text-align: center;
+        margin: auto;
+    }
+
+    #overview{
+        text-align: center;
+        width: 72vw;
+        margin: auto;
+        font-size: 13px; 
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border-bottom: 3px solid orange;
+        border-top: 3px solid orange;
+    }
+
+    #button_nov{background-color: rgba(102,175,233,0.6);}
+    #button_int{background-color: rgba(129,191,176,0.6);}
+    #button_adv{background-color: rgba(151,192,96,0.6);}
+
+    .buttons{
+        width: 80vw;
+        margin: auto;
+        font-size: 1em;
+    }
+
+    .empty{display: none;}
+    .empty2{display: none;}
+    .empty3{display: none;}
+
+    .content{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "main_title"
+            "overview"
+            "button_nov" 
+            "button_int" 
+            "button_adv";
+    }
+    
+    #copyright{padding-top: 3%;}
 }
 
-@media only screen and (min-width: 601px) and (max-width: 950px){
-
+@media only screen and (min-width: 501px) and (max-width: 950px){
 }
 
-@media only screen and (max-width: 600px) {
 
-}
+
+
+
+
+
+
+
