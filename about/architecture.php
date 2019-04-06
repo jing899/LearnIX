@@ -8,7 +8,7 @@ Authors: 	Rachael Bogdany
 -->
 <?php
 	//include the header
-	$path = './';
+	$path = '../';
 	$page = 'Unix Architecture';
 	include $path.'assets/inc/header.php';
 	//include the content

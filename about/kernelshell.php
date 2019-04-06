@@ -8,7 +8,7 @@ Authors: 	Rachael Bogdany
 -->
 <?php
 	//include the header
-	$path = './';
+	$path = '../';
 	$page = 'Kernel v.s. Shell';
 	include $path.'assets/inc/header.php';
 	//include content
