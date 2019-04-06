@@ -20,6 +20,8 @@ Shoujing Wu
                 <ul>
                     <li class="dropdown"><a class="dropbtn">ABOUT</a>
                         <div class="dropdown-content">
+							<a>Unix Architecture</a>
+                            <a>Kernel v.s. Shell</a>
                             <a>Content Citations</a>
                             <a>Analysis Citations</a>
                         </div>
@@ -75,8 +77,6 @@ Shoujing Wu
                     </li>
                     <li><a href="">HOME</a>
                         <div class="dropdown-content">
-                            <a>Unix Architecture</a>
-                            <a>Kernel v.s. Shell</a>
                         </div>
                     </li>
                     <li id="logo">
