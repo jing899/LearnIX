@@ -60,3 +60,40 @@ function validateQuiz() {
 	
 	return false;
 }
+/*
+	This function validates the permissions the user inputs on the permissions tutorial
+*/
+function validatePermissions(){
+	var items = ['---','--x','-w-','-wx','r--','r-x','rw-','rwx'];
+	var descriptions = ['no permission', 'execute permission', 'write permission', 'execute and write permissions', 'read permission', 'read and execute permissions', 'read and write permissions', 'read, write, and execute permission'];
+	var str = document.getElementById('perm').value;
+	if(str != ''){
+		if(str.match("^[0-9]*$")){
+			var num = parseInt(str);
+			document.getElementById('error').style.display = 'none';
+			if(num < 777){
+				for(i = 0; i < str.length; i++){
+					if(str[i] < 0 || str[i] > 7){
+						document.getElementById('error').innerHTML = 'Can only enter numbers between 0 and 7';
+						document.getElementById('error').style.display = 'block';
+						return;
+					}
+				}
+				var output = '';
+				for(i = 0; i < str.length; i++){
+					output += items[str[i]];
+				}
+				document.getElementById('output').innerHTML = output + '<br>' + 'You gave the Owner ' + descriptions[str[0]] + ', the Group ' + descriptions[str[1]] + ', and Others ' + descriptions[str[2]] + '.';
+			}
+			else{
+				document.getElementById('error').innerHTML = 'Can only enter number less than 777';
+				document.getElementById('error').style.display = 'block';
+				return;
+			}
+		}
+		else{
+			document.getElementById('error').innerHTML = 'Can only enter numbers.';
+			document.getElementById('error').style.display = 'block';
+		}
+	}
+}
