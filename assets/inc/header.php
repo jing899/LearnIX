@@ -12,7 +12,7 @@ Shoujing Wu
     <head>
         <title><?php echo $page;?></title>
         <link rel="stylesheet" type="text/css" href="<?php echo $path;?>assets/css/styles.css"/>
-        <script type="text/javascript" src="<?php echo $path;?>assets/script/main.js"></script>
+        <script type="text/javascript" src="<?php echo $path;?>assets/js/main.js"></script>
     </head>
     <body>
         <header>

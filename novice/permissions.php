@@ -12,7 +12,7 @@ Authors: 	Rachael Bogdany
 	$page = 'Permissions';
 	include $path.'assets/inc/header.php';
 	//include content
-	require $path.'../../../240DBConn2185.php';
+	require $path.'../repos/240DBConn2185.php';
 	$sql = "SELECT content FROM learnix WHERE page='" . $page. "'";
 	$result = $conn->query($sql);
 	if($result->num_rows > 0){
