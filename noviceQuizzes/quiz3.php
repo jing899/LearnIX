@@ -33,7 +33,7 @@ Authors: 	Rachael Bogdany
 	<input type="radio" name ="question1" value = "q1a1" id="q1a1"/> <label for="q1a1">chmod imports 551</label><br>
 	<p class="helpText">Please review the "chmod" man pages for proper command syntax </p>
 	<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">perm imports rwx-rw-x</label><br>	
-	<input type="radio" name ="question1" value = "correct" id="q1a3"/> <label for="q1a3">chmod 755 imports</label><br>
+	<input type="radio" name ="question1" value = "correct" id="q1a3"/> <label for="q1a3">chmod 761 imports</label><br>
 	<input type="radio" name ="question1" value = "q1a4" id="q1a4"/> <label for="q1a4">perms -default imports</label><br>
 	
 	<h2 class="qh2" id="q2">Question 2</h2>
@@ -69,8 +69,8 @@ Authors: 	Rachael Bogdany
 	<input type="radio" name ="question5" value = "q5a1" id="q5a1"/> <label for="q5a1">1</label><br>
 	<p class="helpText">Remember, groups with no permissions for a file or folder have a numeric value of 0 or "-"</p>
 	<input type="radio" name ="question5" value = "q5a2" id="q5a2"/> <label for="q5a2">5</label><br>
-	<input type="radio" name ="question5" value = "correct" id="q5a3"/> <label for="q5a3">7</label><br>
-	<input type="radio" name ="question5" value = "q5a4" id="q5a4"/> <label for="q5a4">0</label><br>
+	<input type="radio" name ="question5" value = "correct" id="q5a3"/> <label for="q5a3">0</label><br>
+	<input type="radio" name ="question5" value = "q5a4" id="q5a4"/> <label for="q5a4">7</label><br>
 	
 	<input type="submit"  name="Submit" onclick="validateQuiz()"  value="Send"/>
 </form>
