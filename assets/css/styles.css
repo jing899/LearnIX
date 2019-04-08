@@ -141,7 +141,6 @@ nav li.dropdown {
 /*CSS for quizes*/
 .helpText {
     float: right;
-    padding-right: 35%;
     display: inline;
     visibility: hidden;
 }
@@ -233,12 +232,3 @@ input[type="submit"]{
 
 @media only screen and (min-width: 501px) and (max-width: 950px){
 }
-
-
-
-
-
-
-
-
-
