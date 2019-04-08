@@ -58,10 +58,10 @@ Authors: 	Rachael Bogdany
 	<p class="qP">What is the correct command syntax to update the "chrome" application using Yum?</p>
 	
 	<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">yum get chrome</label><br>
-	<p class="helpText">True, pip and yum will install updates to existing software on the host</p>
+	<p class="helpText">Please review the "yum" man pages for proper command syntax</p>
 	<input type="radio" name ="question4" value = "correct" id="q4a2"/> <label for="q4a2">yum update -y chrome</label><br>
-	<input type="radio" name ="question4" value = "correct" id="q4a3"/> <label for="q4a3">yum grab chrome -update</label><br>
-	<input type="radio" name ="question4" value = "correct" id="q4a4"/> <label for="q4a4">yum -getLatest chrome</label><br>
+	<input type="radio" name ="question4" value = "q4a3" id="q4a3"/> <label for="q4a3">yum grab chrome -update</label><br>
+	<input type="radio" name ="question4" value = "q4a4" id="q4a4"/> <label for="q4a4">yum -getLatest chrome</label><br>
 	
 	<h2 class="qh2" id="q5">Question 5</h2>
 	<p class="qP">What is the correct command syntax to install a package called "sshd" with pip?</p>
