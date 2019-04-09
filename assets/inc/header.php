@@ -10,30 +10,32 @@ Shoujing Wu
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="utf-8">
         <title><?php echo $page;?></title>
         <link rel="stylesheet" type="text/css" href="<?php echo $path;?>assets/css/styles.css"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <script type="text/javascript" src="<?php echo $path;?>assets/js/main.js"></script>
     </head>
     <body>
         <header id="header">
-            
+
             <div id="branding">
                 <h1 id="h1">LearnIX</h1>
                 <img id="logo" src="<?php echo $path;?>assets/img/logo.png" alt="Logo"/>
             </div>
-            
-            <label id="button" for="toggle">&#9776;</label>    
-            
+
+            <label id="button" for="toggle">&#9776;</label>
+
             <input type="checkbox" id="toggle" onclick="expandHeader()"/>
-        
+
 		    <nav id="nav" class="menu">
-                
+
                 <ul>
                     <li><a href="<?php echo $path;?>index.php">HOME</a>
                         <div class="dropdown-content">
                         </div>
                     </li>
-                    
+
                     <li class="dropdown"><a class="dropbtn">ABOUT</a>
                         <div class="dropdown-content">
 							<a href="<?php echo $path;?>about/architecture.php">Unix Architecture</a>
@@ -42,7 +44,7 @@ Shoujing Wu
                             <a href="<?php echo $path;?>about/analysiscitations.php">Analysis Citations</a>
                         </div>
                     </li>
-                    
+
 					<li class="dropdown"><a class="dropbtn">QUIZZES</a>
                         <div class="dropdown-content">
 							<a>Novice</a>
@@ -50,7 +52,7 @@ Shoujing Wu
 							<a>Advanced</a>
 						</div>
                     </li>
-                    
+
                     <li class="dropdown"><a class="dropbtn">NOVICE</a>
                         <div class="dropdown-content">
                             <a href="<?php echo $path;?>novice/navigation.php">Navigation</a>
@@ -65,7 +67,7 @@ Shoujing Wu
 							<a>Basics Quiz</a>
                         </div>
                     </li>
-                    
+
                     <li class="dropdown"><a class="dropbtn">INTERMEDIATE</a>
                         <div class="dropdown-content">
                             <a href="<?php echo $path;?>intermediate/systeminformation.php">System Information</a>
@@ -82,7 +84,7 @@ Shoujing Wu
 							<a>Commands Quiz</a>
                         </div>
                     </li>
-                    
+
                     <li class="dropdown"><a class="dropbtn">ADVANCED</a>
                         <div class="dropdown-content">
                             <a href="<?php echo $path;?>advanced/advancedprograms.php">Advanced Programs</a>
@@ -95,7 +97,7 @@ Shoujing Wu
 							<a>Advanced Commands Quiz</a>
                         </div>
                     </li>
-                    
+
                 </ul>
             </nav>
         </header>
