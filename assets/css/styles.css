@@ -20,7 +20,7 @@ body {
     width: 3em;
 }
 
-h1 {
+#h1{
     float: left;
 }
 
@@ -113,7 +113,7 @@ nav li.dropdown {
     font-size: 3em;
     grid-area: main_title;
     margin-left: 5vw;
-    /*    margin:auto;*/
+    float: left;
 }
 
 #overview{
@@ -121,7 +121,6 @@ nav li.dropdown {
     line-height: 1.5em;
     grid-area: overview;
     margin-right: 5vw;
-    /*    margin: auto;*/
 }
 
 #button_nov{grid-area: button_nov;}
@@ -162,6 +161,14 @@ nav li.dropdown {
 }
 
 /*CSS for quizes*/
+
+.quiz{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*hint message*/
 .helpText {
     float: right;
     display: inline;
@@ -170,7 +177,7 @@ nav li.dropdown {
 
 /* The h1 elements on quizes */
 .qh1{
-    margin-left: 6%;
+    text-align: center;
 }
 
 /* The h2 elements on quizes */
@@ -197,6 +204,41 @@ input[type="submit"]{
     padding: .75%;
     border-radius: 20px;
 }
+
+
+/*tutorial page*/
+.topic{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.text{
+    width: 55vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*unix navigation structure tree picture*/
+#unix_nav_pic{
+    width: 50vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+/*highlight command*/
+span{
+    color: rgb(129,191,176);
+}
+
+.wrapper{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    border-left: 3px solid orange;
+    border-right: 3px solid orange;
+}
+
+
+
 
 /*footer*/
 #copyright{text-align: center;}
@@ -394,9 +436,9 @@ input[type="submit"]{
 }
 
 @media only screen and (min-width: 601px) and (max-width: 950px){
-  #branding {
-    display: none;
-  }
+    #branding {
+        display: none;
+    }
 
-  /* ============= END MEDIA QUERY CSS =============== */
+    /* ============= END MEDIA QUERY CSS =============== */
 }
