@@ -13,23 +13,35 @@ body {
 }
 
 /*logo*/
-#logo{float: left;}
-
-#logosize{
-    width: 30%;
-    margin-left: 10vw;
+#logo {
+    position: relative;
+    right: -1em;
+    top: 1em;
+    width: 3em;
 }
 
-/*global nav*/
-nav{
+h1 {
+    float: left;
+}
+
+#branding {
+    position: absolute;
+    right: 4em;
+}
+
+/* ============= BEGIN GLOBAL NAV CSS =============== */
+
+/* configure spacing around nav */
+header {
     margin-left: 5vw;
     margin-right: 5vw;
     margin-bottom: 3vh;
     margin-top: 3vh;
-    width: 80vw;
+    width: 80%;
+    height: 100px;
 }
 
-nav ul {
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -37,9 +49,13 @@ nav ul {
     height: 13vh;
 }
 
-nav li {
-    float: right;
-    color: black;
+header li {
+    float: left;
+}
+
+nav {
+    position: relative;
+    top: 1em;
 }
 
 nav li a, .dropbtn {
@@ -83,6 +99,13 @@ nav li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+#toggle, label {
+    display: none;
+}
+
+/* ============= END GLOBAL NAV CSS =============== */
+
 
 /*index page*/
 #main_title{
@@ -179,12 +202,152 @@ input[type="submit"]{
 #copyright{text-align: center;}
 
 
+/* ============= START MEDIA QUERY CSS =============== */
 
+@media only screen and (max-width: 600px) {
 
+    body {
+        margin: 0;
+    }
 
+    /* adapt logo to mobile */
+    #logo {
+        position: absolute;
+        top: 1.8em;
+        right: 2em;
+        height: 40px;
+        z-index: -100;
+    }
 
+    nav {
+        text-align: center;
+        width: 100%;
+        display: none;
+        height: 100%;
+        position: relative;
+        top: 2em;
+    }
 
-@media only screen and (max-width: 500px) {
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+
+    label {
+        position: absolute;
+        top: 1.1em;
+        display: block;
+        font-size: 26px;
+        z-index: 100;
+    }
+
+    /* Show menu */
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+    #toggle:checked + .menu ul {
+        display: inline;
+    }
+
+    #toggle:checked + .menu li {
+        display: inline;
+        list-style-type: none;
+        float: none;
+    }
+
+    .dropdown-content {
+        position: inherit;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .dropdown-content a {
+        text-align: center;
+    }
+
+    @keyframes slideRight {
+        from {
+            margin-left: 1em;
+        }
+        to {
+            margin-left: 85vw;
+        }
+    }
+
+    @keyframes slideLeft {
+        from {
+            margin-left: 85vw;
+        }
+        to {
+            margin-left: 1em;
+        }
+    }
+
+    @keyframes fadeOut {
+        from {
+            opacity: 1.0;
+        }
+        to {
+            opacity: 0;
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1.0;
+        }
+    }
+
+    .button-activate {
+        animation-name: slideRight;
+        animation-duration: .7s;
+        animation-fill-mode: forwards;
+    }
+
+    .button-deactivate {
+        animation-name: slideLeft;
+        animation-duration: .4s;
+        animation-fill-mode: forwards;
+    }
+
+    .drawer-background {
+        background-color: green;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        z-index: -10;
+    }
+
+    .fadeIn {
+        animation-name: fadeIn;
+        animation-duration: .7s;
+        animation-fill-mode: forwards;
+    }
+
+    .fadeOut {
+        animation-name: fadeOut;
+        animation-duration: .3s;
+        animation-fill-mode: forwards;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: Ubuntu;
+        font-size: 1.5em;
+        position: relative;
+        top: .5em;
+        left: .4em
+    }
+
+    #branding {
+        display: none;
+    }
 
     /*index page*/
     #main_title{
@@ -196,7 +359,7 @@ input[type="submit"]{
         text-align: center;
         width: 72vw;
         margin: auto;
-        font-size: 13px; 
+        font-size: 13px;
         padding-top: 3%;
         padding-bottom: 3%;
         border-bottom: 3px solid orange;
@@ -222,13 +385,18 @@ input[type="submit"]{
         grid-template-areas:
             "main_title"
             "overview"
-            "button_nov" 
-            "button_int" 
+            "button_nov"
+            "button_int"
             "button_adv";
     }
-    
+
     #copyright{padding-top: 3%;}
 }
 
-@media only screen and (min-width: 501px) and (max-width: 950px){
+@media only screen and (min-width: 601px) and (max-width: 950px){
+  #branding {
+    display: none;
+  }
+
+  /* ============= END MEDIA QUERY CSS =============== */
 }

@@ -109,3 +109,33 @@ function validatePermissions(){
 		}
 	}
 }
+
+
+/*
+    JS for opening and closing mobile nav
+*/
+var isOpen = false;
+document.getElementById("button").innerHTML = "&#9776;";       
+function expandHeader() {
+    // close nav code:
+    if (isOpen) {
+        document.getElementById("header").style.height = "20vh";
+        document.getElementById("button").innerHTML = "&#9776;";
+        document.getElementById("button").className = "button-deactivate";
+        document.getElementById("logo").className = "fadeIn";
+
+        document.getElementById("h1").className = "fadeIn";
+        document.getElementById("button").style.left = "5px";
+        isOpen = false;
+    }
+    // open nav code:
+    else {
+        document.getElementById("header").style.height = "80vh";
+        document.getElementById("button").innerHTML = "&#10005;";
+        document.getElementById("button").className = "button-activate";
+        document.getElementById("logo").className = "fadeOut";
+        document.getElementById("h1").className = "fadeOut";
+        document.getElementById("button").style.right = "5px";
+        isOpen = true;
+    }
+}
