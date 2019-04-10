@@ -1,9 +1,9 @@
 /* LEARNIX
-Filename:	index.php
+Filename:	styles.css
 Authors: 	Rachael Bogdany
-Jon Healy
-Lowell Pence
-Shoujing Wu
+			Jon Healy
+			Lowell Pence
+			Shoujing Wu
 */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Ubuntu');
 
@@ -100,7 +100,7 @@ nav li.dropdown {
     display: block;
 }
 
-#toggle, label {
+#toggle{
     display: none;
 }
 
@@ -192,13 +192,13 @@ nav li.dropdown {
 }
 
 /* The radio button input elements on quizes */
-input[type="radio"]{
+form > input[type="radio"]{
     margin-left: 11%;
     margin-top: 1%;
 }
 
 /* The submit button on quizes */
-input[type="submit"]{
+form > input[type="submit"]{
     margin-left: 11%;
     margin-top: 3%;
     padding: .75%;
