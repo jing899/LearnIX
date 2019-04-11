@@ -28,7 +28,7 @@ function validateQuiz() {
 		document.getElementById("q1").style.marginRight = "81%"; 
 		document.getElementById("q1").style.backgroundColor = "#CC0202"; 
 		document.getElementsByClassName("helpText")[0].style.visibility = "visible";
-		document.getElementsByClassName("helpText")[0].style.paddingRight = "5%";
+		document.getElementsByClassName("helpText")[0].style.paddingRight = "15%";
 		document.getElementsByClassName("helpText")[0].style.paddingLeft = "5%";
 	}
 	
@@ -38,7 +38,7 @@ function validateQuiz() {
 		document.getElementById("q2").style.marginRight = "81%";
 		document.getElementById("q2").style.backgroundColor = "#CC0202";
 		document.getElementsByClassName("helpText")[1].style.visibility = "visible";
-		document.getElementsByClassName("helpText")[1].style.paddingRight = "5%";
+		document.getElementsByClassName("helpText")[1].style.paddingRight = "15%";
 		document.getElementsByClassName("helpText")[1].style.paddingLeft = "5%";
 	}
 	
@@ -47,7 +47,7 @@ function validateQuiz() {
 		document.getElementById("q3").style.marginRight = "81%";
 		document.getElementById("q3").style.backgroundColor = "#CC0202";
 		document.getElementsByClassName("helpText")[2].style.visibility = "visible";
-		document.getElementsByClassName("helpText")[2].style.paddingRight = "5%";
+		document.getElementsByClassName("helpText")[2].style.paddingRight = "15%";
 		document.getElementsByClassName("helpText")[2].style.paddingLeft = "5%";
 	}
 	
@@ -56,7 +56,7 @@ function validateQuiz() {
 		document.getElementById("q4").style.marginRight = "81%";
 		document.getElementById("q4").style.backgroundColor = "#CC0202";
 		document.getElementsByClassName("helpText")[3].style.visibility = "visible";
-		document.getElementsByClassName("helpText")[3].style.paddingRight = "5%";
+		document.getElementsByClassName("helpText")[3].style.paddingRight = "15%";
 		document.getElementsByClassName("helpText")[3].style.paddingLeft = "5%";
 	}
 	
@@ -65,7 +65,7 @@ function validateQuiz() {
 		document.getElementById("q5").style.marginRight = "81%";
 		document.getElementById("q5").style.backgroundColor = "#CC0202";
 		document.getElementsByClassName("helpText")[4].style.visibility = "visible";
-		document.getElementsByClassName("helpText")[4].style.paddingRight = "5%";
+		document.getElementsByClassName("helpText")[4].style.paddingRight = "15%";
 		document.getElementsByClassName("helpText")[4].style.paddingLeft = "5%";
 	}
 	
