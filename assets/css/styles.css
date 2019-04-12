@@ -160,7 +160,14 @@ nav li.dropdown {
     grid-gap: 15px;
 }
 
-/*CSS for quizes*/
+
+/* CSS for quizes */
+.container{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .quiz{
     width: 70vw;
@@ -170,9 +177,10 @@ nav li.dropdown {
 
 /*hint message*/
 .helpText {
-    float: right;
-    display: inline;
-    visibility: hidden;
+	padding-left: 10%;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	visibility: hidden;
 }
 
 /* The h1 elements on quizes */
@@ -184,6 +192,7 @@ nav li.dropdown {
 .qh2{
     margin-left:8%;
     margin-top: 4%;
+	margin-right: 81%;
 }
 
 /* The p elements on quizes */
@@ -192,7 +201,7 @@ nav li.dropdown {
 }
 
 /* The radio button input elements on quizes */
-form > input[type="radio"]{
+form div > input[type="radio"]{
     margin-left: 11%;
     margin-top: 1%;
 }
