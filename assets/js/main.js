@@ -1,4 +1,3 @@
-    
 /*
 Learnix
 	
@@ -24,49 +23,34 @@ function validateQuiz() {
 	
 	//The folowing if statements check if the input is incorrect. If so, it highlights the correct choice on the doc
 	if(q1 != "correct") {
-		document.getElementsByTagName("label")[2].style.backgroundColor = "#7cfc00";
-		document.getElementById("q1").style.marginRight = "81%"; 
+		document.getElementsByTagName("label")[3].style.backgroundColor = "#7cfc00";
 		document.getElementById("q1").style.backgroundColor = "#CC0202"; 
 		document.getElementsByClassName("helpText")[0].style.visibility = "visible";
-		document.getElementsByClassName("helpText")[0].style.paddingRight = "15%";
-		document.getElementsByClassName("helpText")[0].style.paddingLeft = "5%";
 	}
 	
 	
 	if(q2 != "correct") {
-		document.getElementsByTagName("label")[4].style.backgroundColor = "#7cfc00";
-		document.getElementById("q2").style.marginRight = "81%";
+		document.getElementsByTagName("label")[5].style.backgroundColor = "#7cfc00";
 		document.getElementById("q2").style.backgroundColor = "#CC0202";
 		document.getElementsByClassName("helpText")[1].style.visibility = "visible";
-		document.getElementsByClassName("helpText")[1].style.paddingRight = "15%";
-		document.getElementsByClassName("helpText")[1].style.paddingLeft = "5%";
 	}
 	
 	if(q3 != "correct") {
-		document.getElementsByTagName("label")[11].style.backgroundColor = "#7cfc00";
-		document.getElementById("q3").style.marginRight = "81%";
+		document.getElementsByTagName("label")[12].style.backgroundColor = "#7cfc00";
 		document.getElementById("q3").style.backgroundColor = "#CC0202";
 		document.getElementsByClassName("helpText")[2].style.visibility = "visible";
-		document.getElementsByClassName("helpText")[2].style.paddingRight = "15%";
-		document.getElementsByClassName("helpText")[2].style.paddingLeft = "5%";
 	}
 	
 	if(q4 != "correct") {
-		document.getElementsByTagName("label")[13].style.backgroundColor = "#7cfc00";
-		document.getElementById("q4").style.marginRight = "81%";
+		document.getElementsByTagName("label")[14].style.backgroundColor = "#7cfc00";
 		document.getElementById("q4").style.backgroundColor = "#CC0202";
 		document.getElementsByClassName("helpText")[3].style.visibility = "visible";
-		document.getElementsByClassName("helpText")[3].style.paddingRight = "15%";
-		document.getElementsByClassName("helpText")[3].style.paddingLeft = "5%";
 	}
 	
 	if(q5 != "correct") {
-		document.getElementsByTagName("label")[18].style.backgroundColor = "#7cfc00";
-		document.getElementById("q5").style.marginRight = "81%";
+		document.getElementsByTagName("label")[19].style.backgroundColor = "#7cfc00";
 		document.getElementById("q5").style.backgroundColor = "#CC0202";
 		document.getElementsByClassName("helpText")[4].style.visibility = "visible";
-		document.getElementsByClassName("helpText")[4].style.paddingRight = "15%";
-		document.getElementsByClassName("helpText")[4].style.paddingLeft = "5%";
 	}
 	
 	return false;
@@ -113,10 +97,11 @@ function validatePermissions(){
 
 /*
     JS for opening and closing mobile nav
-*/
-var isOpen = false;
-document.getElementById("button").innerHTML = "&#9776;";       
+*/       
 function expandHeader() {
+	var isOpen = false;
+	document.getElementById("button").innerHTML = "&#9776";
+	
     // close nav code:
     if (isOpen) {
         document.getElementById("header").style.height = "20vh";
