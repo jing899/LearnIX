@@ -12,6 +12,7 @@ Shoujing Wu
     <head>
         <meta charset="utf-8">
         <title><?php echo $page;?></title>
+        <link rel="shortcut icon" type="image/x-icon" href="<?php echo $path;?>assets/img/logo_small.ico"/>
         <link rel="stylesheet" type="text/css" href="<?php echo $path;?>assets/css/styles.css"/>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <script type="text/javascript" src="<?php echo $path;?>assets/js/main.js"></script>
@@ -20,13 +21,12 @@ Shoujing Wu
         <header id="header">
 
             <div id="branding">
-                <h1 id="h1">LearnIX</h1>
                 <img id="logo" src="<?php echo $path;?>assets/img/logo.png" alt="Logo"/>
             </div>
 
             <label id="button" for="toggle">&#9776;</label>
 
-            <input type="checkbox" id="toggle" onclick="expandHeader()"/>
+            <input type="checkbox" id="toggle" onclick="expandHeader()" autocomplete="off"/>
 
 		    <nav id="nav" class="menu">
 
@@ -36,7 +36,7 @@ Shoujing Wu
                         </div>
                     </li>
 
-                    <li class="dropdown"><a class="dropbtn">ABOUT</a>
+                    <li class="dropdown"><a>ABOUT</a>
                         <div class="dropdown-content">
 							<a href="<?php echo $path;?>about/architecture.php">Unix Architecture</a>
                             <a href="<?php echo $path;?>about/kernelshell.php">Kernel v.s. Shell</a>
