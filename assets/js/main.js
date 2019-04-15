@@ -24,33 +24,38 @@ function validateQuiz() {
 	//The folowing if statements check if the input is incorrect. If so, it highlights the correct choice on the doc
 	if(q1 != "correct") {
 		document.getElementsByTagName("label")[3].style.backgroundColor = "#7cfc00";
-		document.getElementById("q1").style.backgroundColor = "#CC0202"; 
+		document.getElementById("q1").style.backgroundColor = "#E32909"; 
 		document.getElementsByClassName("helpText")[0].style.visibility = "visible";
+		document.getElementsByClassName("helpText")[0].style.backgroundColor = "#7cfc00";
 	}
 	
 	
 	if(q2 != "correct") {
 		document.getElementsByTagName("label")[5].style.backgroundColor = "#7cfc00";
-		document.getElementById("q2").style.backgroundColor = "#CC0202";
+		document.getElementById("q2").style.backgroundColor = "#E32909";
 		document.getElementsByClassName("helpText")[1].style.visibility = "visible";
+		document.getElementsByClassName("helpText")[1].style.backgroundColor = "#7cfc00";
 	}
 	
 	if(q3 != "correct") {
 		document.getElementsByTagName("label")[12].style.backgroundColor = "#7cfc00";
-		document.getElementById("q3").style.backgroundColor = "#CC0202";
+		document.getElementById("q3").style.backgroundColor = "#E32909";
 		document.getElementsByClassName("helpText")[2].style.visibility = "visible";
+		document.getElementsByClassName("helpText")[2].style.backgroundColor = "#7cfc00";
 	}
 	
 	if(q4 != "correct") {
 		document.getElementsByTagName("label")[14].style.backgroundColor = "#7cfc00";
-		document.getElementById("q4").style.backgroundColor = "#CC0202";
+		document.getElementById("q4").style.backgroundColor = "#E32909";
 		document.getElementsByClassName("helpText")[3].style.visibility = "visible";
+		document.getElementsByClassName("helpText")[3].style.backgroundColor = "#7cfc00";
 	}
 	
 	if(q5 != "correct") {
 		document.getElementsByTagName("label")[19].style.backgroundColor = "#7cfc00";
-		document.getElementById("q5").style.backgroundColor = "#CC0202";
+		document.getElementById("q5").style.backgroundColor = "#E32909";
 		document.getElementsByClassName("helpText")[4].style.visibility = "visible";
+		document.getElementsByClassName("helpText")[4].style.backgroundColor = "#7cfc00";
 	}
 	
 	return false;
