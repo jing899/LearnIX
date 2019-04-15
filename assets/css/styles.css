@@ -171,6 +171,7 @@ nav li.dropdown {
     margin-right: auto;
 }
 
+
 .quiz{
     width: 70vw;
     margin-left: auto;
@@ -179,7 +180,8 @@ nav li.dropdown {
 
 /*hint message*/
 .helpText {
-	padding-left: 10%;
+	margin-left: 10%;
+	margin-right: 50%;
 	margin-top: 2.5%;
 	margin-bottom: 2.5%;
 	visibility: hidden;
@@ -215,7 +217,6 @@ form > input[type="submit"]{
     padding: .75%;
     border-radius: 20px;
 }
-
 
 /*tutorial page*/
 .topic{
