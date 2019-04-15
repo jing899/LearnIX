@@ -45,12 +45,15 @@ Shoujing Wu
                         </div>
                     </li>
 
-					<li class="dropdown"><a class="dropbtn">QUIZZES</a>
-                        <div class="dropdown-content">
-							<a>Novice</a>
-							<a>Intermediate</a>
-							<a>Advanced</a>
-						</div>
+					<li class="dropdown">
+                        <input id="check02" type="checkbox" name="menu"/>
+                        <label for="check02" class="dropbtn">QUIZZES</label>
+                        
+                        <ul class="dropdown-content">
+							<li><a>Novice</a></li>
+							<li><a>Intermediate</a></li>
+							<li><a>Advanced</a></li>
+						</ul>
                     </li>
 
                     <li class="dropdown"><a class="dropbtn">NOVICE</a>

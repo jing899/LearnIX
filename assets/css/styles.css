@@ -20,6 +20,10 @@ body {
     width: 3em;
 }
 
+.dropdown > input {
+    display: none;
+}
+
 #h1{
     float: left;
 }
@@ -39,6 +43,7 @@ header {
     margin-top: 3vh;
     width: 80%;
     height: 100px;
+    background-color: white;
 }
 
 header ul {
@@ -259,6 +264,7 @@ span{
 
     body {
         margin: 0;
+        position: relative;
     }
 
     /* adapt logo to mobile */
@@ -267,7 +273,23 @@ span{
         top: 1.8em;
         right: 2em;
         height: 40px;
-        z-index: -100;
+    }
+    
+    nav > ul {
+        position: relative;
+        top: 2em;
+    }
+    
+    #button, #toggle {
+        z-index: 5;
+    }
+    
+    header {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        margin: 0;
+        width: 100%;
     }
 
     nav {
@@ -336,24 +358,6 @@ span{
         }
     }
 
-    @keyframes fadeOut {
-        from {
-            opacity: 1.0;
-        }
-        to {
-            opacity: 0;
-        }
-    }
-
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1.0;
-        }
-    }
-
     .button-activate {
         animation-name: slideRight;
         animation-duration: .7s;
@@ -373,18 +377,6 @@ span{
         padding: 0;
         height: 100vh;
         z-index: -10;
-    }
-
-    .fadeIn {
-        animation-name: fadeIn;
-        animation-duration: .7s;
-        animation-fill-mode: forwards;
-    }
-
-    .fadeOut {
-        animation-name: fadeOut;
-        animation-duration: .3s;
-        animation-fill-mode: forwards;
     }
 
     #branding {

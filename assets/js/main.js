@@ -108,14 +108,22 @@ function expandHeader() {
 	
     // close nav code:
     if (!isChecked) {
-        document.getElementById("header").style.height = "10vh";
+        document.getElementById("header").style.position = "static";
+        document.getElementById("header").style.height = "100px";
+        // change icon
         document.getElementById("button").innerHTML = "&#9776;";
+        // animate button sliding
         document.getElementById("button").className = "button-deactivate";
     }
+    
     // open nav code:
     else {
-        document.getElementById("header").style.height = "100vh";
+        // 
+        document.getElementById("header").style.position = "absolute";
+        document.getElementById("header").style.height = "100%";
+        // change icon
         document.getElementById("button").innerHTML = "&#10005;";
+        // animate button sliding
         document.getElementById("button").className = "button-activate";
     }
 }
