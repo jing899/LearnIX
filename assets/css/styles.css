@@ -80,6 +80,16 @@ nav li a:hover, .dropdown:hover .dropbtn {
     background-color: #f7f7f7;
 }
 
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
 nav li.dropdown {
     display: inline-block;
 }
@@ -106,6 +116,15 @@ nav li.dropdown {
 }
 
 .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+li:hover > ul {
     display: block;
 }
 
@@ -260,7 +279,7 @@ span{
 
 /* ============= START MEDIA QUERY CSS =============== */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 840px) {
 
     body {
         margin: 0;

@@ -31,12 +31,12 @@ Shoujing Wu
 		    <nav id="nav" class="menu">
 
                 <ul>
-                    <li><a href="<?php echo $path;?>index.php">HOME</a>
-                        <div class="dropdown-content">
-                        </div>
-                    </li>
+                    <!-- top level nav item -->
+                    <li><a href="<?php echo $path;?>index.php">HOME</a></li>
 
-                    <li class="dropdown"><a>ABOUT</a>
+                    <!-- top level nav item -->
+                    <li class="dropdown">
+                        <a class="dropbtn">ABOUT</a>
                         <div class="dropdown-content">
 							<a href="<?php echo $path;?>about/architecture.php">Unix Architecture</a>
                             <a href="<?php echo $path;?>about/kernelshell.php">Kernel v.s. Shell</a>
@@ -45,59 +45,94 @@ Shoujing Wu
                         </div>
                     </li>
 
+                    <!-- top level nav item -->
 					<li class="dropdown">
-                        <input id="check02" type="checkbox" name="menu"/>
-                        <label for="check02" class="dropbtn">QUIZZES</label>
-                        
+                        <a class="dropbtn">QUIZZES</a>
                         <ul class="dropdown-content">
-							<li><a>Novice</a></li>
-							<li><a>Intermediate</a></li>
-							<li><a>Advanced</a></li>
-						</ul>
+                            <!--<li>-->
+                                <a>Novice</a>
+                                <!--<ul class="dropdown-content">-->
+                                    <li><a href="<?php echo $path;?>noviceQuizzes/quiz1.php">Navigation Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>noviceQuizzes/quiz2.php">File Creation Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>noviceQuizzes/quiz3.php">Permissions Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>noviceQuizzes/quiz4.php">Command Line Programs Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>noviceQuizzes/quiz5.php">Basics Quiz</a></li>
+                                <!--</ul>-->
+                            <!--</li>-->
+                            
+                            <!--<li>-->
+                                <a>Intermediate</a>
+                                <!--<ul class="dropdown-content">-->
+                                    <li><a href="<?php echo $path;?>intermediateQuizzes/quiz1.php">System Information Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>intermediateQuizzes/quiz2.php">Pip/Yum Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>intermediateQuizzes/quiz3.php">Processes Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>intermediateQuizzes/quiz4.php">Root Level Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>intermediateQuizzes/quiz5.php">SSH Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>intermediateQuizzes/quiz6.php">Commands Quiz</a></li>
+                                <!--</ul>-->
+                            <!--</li>-->
+                            
+                            <!--<li>-->
+                                <a>Advanced</a>
+                                <!--<ul class="dropdown-content">-->
+                                    <li><a href="<?php echo $path;?>advancedQuizzes/quiz1.php">Advanced Programs Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>advancedQuizzes/quiz2.php">Regular Expressions Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>advancedQuizzes/quiz3.php">Users Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>advancedQuizzes/quiz4.php">Advanced Commands Quiz</a></li>
+                               <!-- </ul>-->
+                            <!--</li>-->
+                        </ul>
+                        <!--<input id="check02" type="checkbox" name="menu"/>
+                        
+                        <label for="check02" class="dropbtn">QUIZZES</label>-->
+                    
                     </li>
 
+                    <!-- top level nav item -->
                     <li class="dropdown"><a class="dropbtn">NOVICE</a>
                         <div class="dropdown-content">
                             <a href="<?php echo $path;?>novice/navigation.php">Navigation</a>
-							<a>Navigation Quiz</a>
+							
                             <a href="<?php echo $path;?>novice/filecreation.php">File Creation</a>
-							<a>File Creation Quiz</a>
+							
                             <a href="<?php echo $path;?>novice/permissions.php">Permissions</a>
-							<a>Permissions Quiz</a>
+							
                             <a href="<?php echo $path;?>novice/commandlineprograms.php">Command Line Programs</a>
-							<a>Command Line Programs Quiz</a>
+							
                             <a href="<?php echo $path;?>novice/basics.php">Basics</a>
-							<a>Basics Quiz</a>
+							
                         </div>
                     </li>
 
+                    <!-- top level nav item -->
                     <li class="dropdown"><a class="dropbtn">INTERMEDIATE</a>
                         <div class="dropdown-content">
                             <a href="<?php echo $path;?>intermediate/systeminformation.php">System Information</a>
-							<a>System Information Quiz</a>
+							
                             <a href="<?php echo $path;?>intermediate/pipyum.php">Pip/Yum</a>
-							<a>Pip/Yum Quiz</a>
+							
                             <a href="<?php echo $path;?>intermediate/processes.php">Processes</a>
-							<a>Processes Quiz</a>
+							
                             <a href="<?php echo $path;?>intermediate/rootlevel.php">Root Level</a>
-							<a>Root Level Quiz</a>
+							
                             <a href="<?php echo $path;?>intermediate/ssh.php">SSH</a>
-							<a>SSH Quiz</a>
+							
                             <a href="<?php echo $path;?>intermediate/commands.php">Commands</a>
-							<a>Commands Quiz</a>
+							
                         </div>
                     </li>
 
+                    <!-- top level nav item -->
                     <li class="dropdown"><a class="dropbtn">ADVANCED</a>
                         <div class="dropdown-content">
                             <a href="<?php echo $path;?>advanced/advancedprograms.php">Advanced Programs</a>
-							<a>Advanced Programs Quiz</a>
+							
                             <a href="<?php echo $path;?>advanced/regularexpressions.php">Regular Expressions</a>
-							<a>Regular Expressions Quiz</a>
+							
                             <a href="<?php echo $path;?>advanced/users.php">Users</a>
-							<a>Users Quiz</a>
+							
                             <a href="<?php echo $path;?>advanced/advancedcommands.php">Advanced Commands</a>
-							<a>Advanced Commands Quiz</a>
+							
                         </div>
                     </li>
 
