@@ -32,9 +32,9 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q1">Question 1</h2>
 			<p class = "qP">What is the significance of having root level access?</p>
 			
-			<input type="radio" name ="question1" value = "correct" id="q1a1"/> <label for="q1a1">Changes made affect the whole system</label><br>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">The chnages can't be undone</label><br>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a3"/> <label for="q1a3">You can be locked out of the system forever</label><br>	
+			<input type="radio" name ="question1" value = "correct" id="q1a1"/> <label for="q1a1">Changes made affect the whole system</label><br>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a4"/> <label for="q1a4">There is nothing significant about being root</label><br>		
 			<p class="helpText">Remember, changes made as the root user afftect the whole system</p>
 		</div>

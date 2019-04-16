@@ -401,6 +401,85 @@ span{
     #branding {
         display: none;
     }
+	
+		/* CSS for quizes */
+	.container{
+		width: 80vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#first{
+		margin-top: 3.5%;
+		margin-bottom: 15.5%;
+	}
+	
+	#second{
+		margin-top: 3.5%;
+		margin-bottom: 15.5%;
+	}
+	
+	#third{
+		margin-top: 3.5%;
+		margin-bottom: 15.5%;
+	}
+	
+	#fourth{
+		margin-top: 3.5%;
+		margin-bottom: 15.5%;		
+	}
+	
+	#fifth{
+		margin-top: 3.5%;
+		margin-bottom: 15.5%;		
+	}
+
+
+	.quiz{
+		width: 70vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*hint message*/
+	.helpText {
+		margin-left: 10%;
+		margin-right: 35%;
+		margin-top: 3.5%;
+		margin-bottom: 3.5%;
+		visibility: hidden;
+	}
+
+	/* The h1 elements on quizes */
+	.qh1{
+		text-align: center;
+	}
+
+	/* The h2 elements on quizes */
+	.qh2{
+		margin-left:8%;
+		margin-top: 4%;
+		margin-right: 45%;
+	}
+
+	/* The p elements on quizes */
+	.qP{
+		margin-left: 9%;
+	}
+
+	/* The radio button input elements on quizes */
+	form div > input[type="radio"]{
+		margin-left: 11%;
+		margin-top: 1%;
+	}
+
+	/* The submit button on quizes */
+	form > input[type="submit"]{
+		margin-left: 11%;
+		margin-top: 3%;
+		padding: .75%;
+		border-radius: 20px;
+	}
 
     /*index page*/
     #main_title{
