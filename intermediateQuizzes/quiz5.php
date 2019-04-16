@@ -32,9 +32,9 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q1">Question 1</h2>
 			<p class = "qP">What is the command that shows the commplete path of a file?</p>
 			
-			<input type="radio" name ="question1" value = "correct" id="q1a1"/> <label for="q1a1">which</label><br>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">path -full</label><br>
-			<input type="radio" name ="question1" value = "q1a2" id="q1a3"/> <label for="q1a3">path -all</label><br>	
+			<input type="radio" name ="question1" value = "q1a2" id="q1a3"/> <label for="q1a3">path -all</label><br>
+			<input type="radio" name ="question1" value = "correct" id="q1a1"/> <label for="q1a1">which</label><br>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a4"/> <label for="q1a4">completePath -file</label><br>
 			<p class="helpText">The which command shows the complete path of a file</p>			
 		</div>

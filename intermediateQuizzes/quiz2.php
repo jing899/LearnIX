@@ -32,9 +32,9 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q1">Question 1</h2>
 			<p class = "qP">What are some things packages installed with pip be used for?</p>
 			
-			<input type="radio" name ="question1" value = "correct" id="q1a1"/> <label for="q1a1">bash and python script</label><br>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">port scanning</label><br>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a3"/> <label for="q1a3">Creating firewall vulnerabilities</label><br>	
+			<input type="radio" name ="question1" value = "correct" id="q1a1"/> <label for="q1a1">bash and python script</label><br>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a4"/> <label for="q1a4">Creating symbolic links</label><br>	
 			<p class="helpText">Remmeber, packages installed with pip are commonly imported into bash and python scripts</p>			
 		</div>
