@@ -32,9 +32,9 @@ Authors: 	Rachael Bogdany
 			<p class = "qP">What is the command to show who is currently logged in?</p>
 			
 			<input type="radio" name ="question1" value = "q1a1" id="q1a1"/> <label for="q1a1">logon</label><br>
-			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">log</label><br>	
+			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">log</label><br>
+			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">who</label><br>			
 			<input type="radio" name ="question1" value = "q1a3" id="q1a3"/> <label for="q1a3">currentUsers</label><br>
-			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">who</label><br>
 			<p class="helpText">Remember, the command "who" tells you who is currently logged onto the machine</p>
 		</div>
 

@@ -34,8 +34,8 @@ Authors: 	Rachael Bogdany
 			
 			<input type="radio" name ="question1" value = "q1a1" id="q1a1"/> <label for="q1a1">to clear web browsing history</label><br>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">to format data into a csv file</label><br>	
-			<input type="radio" name ="question1" value = "q1a3" id="q1a3"/> <label for="q1a3">to remove lines in a file</label><br>
 			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">strings at specific points to find specific characters in the string</label><br>
+			<input type="radio" name ="question1" value = "q1a3" id="q1a3"/> <label for="q1a3">to remove lines in a file</label><br>
 			<p class="helpText">Remember, RegEx is used to search and iterate through strings</p>
 		</div>
 

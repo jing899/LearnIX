@@ -33,9 +33,9 @@ Authors: 	Rachael Bogdany
 			<p class = "qP">What is the curl tool used for?</p>
 			
 			<input type="radio" name ="question1" value = "q1a1" id="q1a1"/> <label for="q1a1">it's used in NAT translation</label><br>
-			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">encrypts data being sent to a file sharing server</label><br>	
+			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">encrypts data being sent to a file sharing server</label><br>
+			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">a command line tool for making requests over HTTP(s)</label><br>			
 			<input type="radio" name ="question1" value = "q1a3" id="q1a3"/> <label for="q1a3">concats file contents into one file</label><br>
-			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">a command line tool for making requests over HTTP(s)</label><br>
 			<p class="helpText">Curl is a command line tool for making requests over HTTP(s)</p>
 		</div>
 

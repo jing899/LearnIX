@@ -34,8 +34,8 @@ Authors: 	Rachael Bogdany
 			
 			<input type="radio" name ="question1" value = "q1a1" id="q1a1"/> <label for="q1a1">chrome</label><br>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">filezilla</label><br>	
-			<input type="radio" name ="question1" value = "q1a3" id="q1a3"/> <label for="q1a3">ssh</label><br>
 			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">Git</label><br>
+			<input type="radio" name ="question1" value = "q1a3" id="q1a3"/> <label for="q1a3">ssh</label><br>
 			<p class="helpText">Remember, Git is used for file version control</p>
 		</div>
 
