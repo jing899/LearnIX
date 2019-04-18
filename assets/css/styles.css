@@ -142,6 +142,8 @@ li:hover > ul {
     grid-area: main_title;
     margin-left: 5vw;
     float: left;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #overview{
@@ -149,34 +151,55 @@ li:hover > ul {
     line-height: 1.5em;
     grid-area: overview;
     margin-right: 5vw;
+    font-size: 18px;
+    width: 36vw;
 }
 
-#button_nov{grid-area: button_nov;}
-#button_int{grid-area: button_int;}
-#button_adv{grid-area: button_adv;}
+#button_nov{
+    grid-area: button_nov;
+    background-color: rgba(102,175,233,0.4);
+}
+
+#button_int{
+    grid-area: button_int; 
+    background-color: rgba(129,191,176,0.4);
+}
+
+#button_adv{
+    grid-area: button_adv; 
+    background-color: rgba(151,192,96,0.4);
+}
 
 .empty{grid-area: empty; border-right: 3px solid orange;}
 .empty2{grid-area: empty2; border-left: 3px solid orange;}
-.empty3{grid-area: empty3; height: 3vh;}
+.empty3{grid-area: empty3; height: 4vh;}
 
 .buttons{
-    width: 20vw;
-    height: 20vh;
+    width: 21vw;
     text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
 }
 
-#button_nov:hover{background-color: rgba(102,175,233,0.6);}
-#button_int:hover{background-color: rgba(129,191,176,0.6);}
-#button_adv:hover{background-color: rgba(151,192,96,0.6);}
+#button_nov:hover{
+    background-color: rgba(102,175,233,0.6); 
+    transform: scale(1.2);
+}
+
+#button_int:hover{
+    background-color: rgba(129,191,176,0.6); 
+    transform: scale(1.2);
+}
+
+#button_adv:hover{
+    background-color: rgba(151,192,96,0.6); 
+    transform: scale(1.2);
+}
 
 .buttons a{
     text-decoration: none;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    color: rgba(0,0,0,0.75);
 }
+
 
 .content{
     margin-left: 5vw;
@@ -271,8 +294,12 @@ legend{
 /* in tutorial question submit button*/
 .btn{
     border-radius: 3px;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
 }
 
+/* all tutorial questions as a whole*/
 .tuto_ques{
     margin-top: auto;
     margin-bottom: auto;
@@ -281,6 +308,7 @@ legend{
     grid-area: tuto_ques;
 }
 
+/* every tutorial question, including question, radio buttons, and submit button*/
 .question{
     margin-left: auto;
     margin-right: auto;
@@ -312,7 +340,8 @@ span{
 
 /*footer*/
 #copyright{    
-    margin-top: 3%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     text-align: center;
 }
 
@@ -538,15 +567,15 @@ span{
         border-top: 3px solid orange;
     }
 
-    #button_nov{background-color: rgba(102,175,233,0.6);}
-    #button_int{background-color: rgba(129,191,176,0.6);}
-    #button_adv{background-color: rgba(151,192,96,0.6);}
-
     .buttons{
         width: 80vw;
         margin: auto;
         font-size: 1em;
     }
+
+    #button_nov:hover{transform: none;}
+    #button_int:hover{transform: none;}
+    #button_adv:hover{transform: none;}
 
     .empty{display: none;}
     .empty2{display: none;}
