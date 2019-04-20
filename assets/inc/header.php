@@ -8,7 +8,7 @@ Shoujing Wu
 -->
 <!DOCTYPE html>
 <html lang="en">
-    
+
     <head>
         <meta charset="utf-8">
         <title><?php echo $page;?></title>
@@ -17,7 +17,7 @@ Shoujing Wu
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <script type="text/javascript" src="<?php echo $path;?>assets/js/main.js"></script>
     </head>
-    
+
     <body>
         <header id="header">
             <div id="branding">
@@ -30,7 +30,7 @@ Shoujing Wu
                 <ul>
                     <!-- top level nav item -->
                     <li><a href="<?php echo $path;?>index.php">HOME</a></li>
-                    
+
                     <!-- top level nav item -->
                     <li class="dropdown">
                         <a>ABOUT</a>
@@ -39,9 +39,10 @@ Shoujing Wu
                             <li><a href="<?php echo $path;?>about/kernelshell.php">Kernel v.s. Shell</a></li>
                             <li><a href="<?php echo $path;?>about/contentcitations.php">Content Citations</a></li>
                             <li><a href="<?php echo $path;?>about/analysiscitations.php">Analysis Citations</a></li>
+                            <li><a href="<?php echo $path;?>about/aboutus.php">About Us</a></li>
                         </ul>
                     </li>
-                    
+
                     <!-- top level nav item -->
 					<li class="dropdown">
                         <a>QUIZZES</a>
@@ -57,7 +58,7 @@ Shoujing Wu
                                     <li><a href="<?php echo $path;?>noviceQuizzes/quiz5.php">Basics Quiz</a></li>
                                 </ul>
                             </li>
-                            
+
                             <li>
                                 <a>Intermediate</a>
                                 <ul>
@@ -68,7 +69,7 @@ Shoujing Wu
                                     <li><a href="<?php echo $path;?>intermediateQuizzes/quiz6.php">Commands Quiz</a></li>
                                 </ul>
                             </li>
-                            
+
                             <li>
                                 <a>Advanced</a>
                                 <ul>
@@ -82,7 +83,7 @@ Shoujing Wu
                         <!--<input id="check02" type="checkbox" name="menu"/>
                         <label for="check02" class="dropbtn">QUIZZES</label>-->
                     </li>
-                    
+
                     <!-- top level nav item -->
                     <li class="dropdown">
                         <a>NOVICE</a>
@@ -95,7 +96,7 @@ Shoujing Wu
                             <li><a href="<?php echo $path;?>novice/basics.php">Basics</a></li>
                         </ul>
                     </li>
-                    
+
                     <!-- top level nav item -->
                     <li class="dropdown">
                         <a>INTERMEDIATE</a>
@@ -107,7 +108,7 @@ Shoujing Wu
                             <li><a href="<?php echo $path;?>intermediate/commands.php">Commands</a></li>
                         </ul>
                     </li>
-                    
+
                     <!-- top level nav item -->
                     <li class="dropdown">
                         <a>ADVANCED</a>
