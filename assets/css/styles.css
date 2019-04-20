@@ -172,7 +172,7 @@ li:hover > ul {
 
 .empty{grid-area: empty; border-right: 3px solid orange;}
 .empty2{grid-area: empty2; border-left: 3px solid orange;}
-.empty3{grid-area: empty3; height: 4vh;}
+.empty3{grid-area: empty3; height: 2vh;}
 
 .buttons{
     width: 21vw;
@@ -182,17 +182,17 @@ li:hover > ul {
 
 #button_nov:hover{
     background-color: rgba(102,175,233,0.6); 
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 #button_int:hover{
     background-color: rgba(129,191,176,0.6); 
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 #button_adv:hover{
     background-color: rgba(151,192,96,0.6); 
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 .buttons a{
@@ -210,7 +210,7 @@ li:hover > ul {
         "empty main_title overview overview empty2"
         "empty empty3 empty3 empty3 empty2"
         "empty button_nov button_int button_adv empty2";
-    grid-gap: 15px;
+    grid-gap: 2vw;
 }
 
 /* CSS for quizes */
@@ -267,15 +267,37 @@ form > input[type="submit"]{
     border-radius: 20px;
 }
 
-/*tutorial page*/
+/* tutorial page*/
+/* previous and next button*/
+.prev_next{
+    text-decoration: none;
+    color: rgb(129,191,176);
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    font-weight: bold;
+}
+
+.prev_next:visited{
+    text-decoration: none;
+    color: rgb(129,191,176);
+}
+
+.prev_next:hover{color:orange;}
+
+.tran_btn_bottom{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10%;
+    grid-area: tran_btn;
+}
+
 .topic{
     text-align: center;
     margin-bottom: 2%;
+    color: rgba(0,0,0,0.75);
 }
 
-.text{
-    line-height: 1.5em;
-}
+.text{line-height: 1.5em;}
 
 .tutorial{
     width: 45vw;
@@ -285,7 +307,7 @@ form > input[type="submit"]{
 }
 
 /* in tutorial questions */
-legend{
+.legend{
     color: rgb(129,191,176);
     width: 23vw;
     margin-bottom: 2%;
@@ -296,7 +318,7 @@ legend{
     border-radius: 3px;
     background-color: white;
     color: black;
-    border: 2px solid #e7e7e7;
+    border: 2px solid rgb(129,191,176); 
 }
 
 /* all tutorial questions as a whole*/
@@ -315,10 +337,11 @@ legend{
     margin-bottom: 13%;
     border-left: 3px solid orange;
     padding-left: 10%;
+    line-height: 1.5em;
 }
 
-/*unix navigation structure tree picture*/
-#unix_nav_pic{
+/* tutorial pictures*/
+.tuto_pic{
     width: 35vw;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -335,7 +358,9 @@ span{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas:
-        "tutorial tuto_ques";
+        "tutorial tuto_ques"
+        "tutorial tran_btn";
+    grid-gap: 0;
 }
 
 /*footer*/
@@ -593,7 +618,12 @@ span{
 
     /*    tutorial page*/
     .tutorial{width: 80vw;}
-    legend{width: 80vw;}
+    .legend{width: 80vw;}
+
+    .tran_btn_bottom{
+        padding-left: 0;
+        text-align: center;
+    }
 
     .tuto_ques{
         padding-top: 5%;
@@ -602,7 +632,6 @@ span{
     }
 
     .question{
-        margin-bottom: auto;
         border-left: none;
         padding-left: 0;
         margin-bottom: 7%;
@@ -619,7 +648,8 @@ span{
         grid-template-columns: 1fr;
         grid-template-areas:
             "tutorial"
-            "tuto_ques";
+            "tuto_ques"
+            "tran_btn";
     }
 }
 
