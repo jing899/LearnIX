@@ -18,13 +18,13 @@ include $path.'assets/inc/header.php';
     <p id="overview">LearnIX is a tutorial website that aims to teach users how to use Unix through quizzes, and interactive activities. LearnIX starts with very simple concepts, teaching users how to navigate the Unix command line and then moves into increasingly more complex ideas for advanced users. A smooth layout allows users to go through tutorials at their own pace and includes a reference page for users to be able to quickly find a command they might need. The site is aimed toward Unix with the purpose of Web Development, and is perfect for anyone from novice to advanced.</p>
     <div class="empty2"></div>
     <div class="buttons" id="button_nov">
-        <a href=""><h2>Novice<br/>Tutorials</h2></a>
+        <a href="novice/ssh.php"><h2>Novice<br/>Tutorials</h2></a>
     </div>
     <div class="buttons" id="button_int">
-        <a href=""><h2>Intermediate<br/>Tutorials</h2></a>
+        <a href="intermediate/systeminformation.php"><h2>Intermediate<br/>Tutorials</h2></a>
     </div>
     <div class="buttons" id="button_adv">
-        <a href=""><h2>Advanced<br/>Tutorials</h2></a>
+        <a href="advanced/advancedprograms.php"><h2>Advanced<br/>Tutorials</h2></a>
     </div>
     <div class="empty3"></div>
 
