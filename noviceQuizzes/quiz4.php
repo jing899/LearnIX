@@ -17,6 +17,7 @@ Authors: 	Rachael Bogdany
 <div class = "container">
 	<form onsubmit="return false;" name="quiz" action="#" method="get">
 
+			<div><h2 id="scorebaord"></h2></div>
 			<h1 class="qh1">Novice Important Programs Quiz</h1>
 			<!--
 				The naming convention for quiz question id's is as follows: Question # Answer #
@@ -33,6 +34,8 @@ Authors: 	Rachael Bogdany
 			<p class = "qP">Which of these programs are command line text editors?</p>
 			
 			<input type="radio" name ="question1" value = "q1a1" id="q1a1"/> <label for="q1a1">Just pico and emacs</label><br>
+			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
+			<div class="checks" id="check1"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Just Vi and Vim </label><br>	
 			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">All of the above</label><br>
 			<input type="radio" name ="question1" value = "q1a3" id="q1a3"/> <label for="q1a3">Just vim and nano</label><br>
@@ -44,6 +47,8 @@ Authors: 	Rachael Bogdany
 			<p class="qP">Which choice best defines Vim?</p>
 			
 			<input type="radio" name ="question2" value = "correct" id="q2a1"/> <label for="q2a1">VI improved, adds to bill Joy’s vi editor and can be used both in the command line and as a standalone application on a GUI</label><br>
+			<div class="redX" id="x2"><img src="../assets/img/redX.png" alt="Red X"></div>
+			<div class="checks" id="check2"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question2" value = "q2a2" id="q2a2"/> <label for="q2a2">The predacessor to Vi</label><br>
 			<input type="radio" name ="question2" value = "q2a3" id="q2a3"/> <label for="q2a3">A non command line text editor</label><br>
 			<input type="radio" name ="question2" value = "q2a4" id="q2a4"/> <label for="q2a4">A command line program to read binary files</label><br>
@@ -55,6 +60,8 @@ Authors: 	Rachael Bogdany
 			<p class="qP">Who created the Vi text editor?</p>
 			
 			<input type="radio" name ="question3" value = "q3a1" id="q3a1"/> <label for="q3a1">Billy Joel</label><br>
+			<div class="redX" id="x3"><img src="../assets/img/redX.png" alt="Red X"></div>
+			<div class="checks" id="check3"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question3" value = "q3a2" id="q3a2"/> <label for="q3a2">Bill Gates</label><br>
 			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">Elon Musk</label><br>
 			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">Bill Joy</label><br>
@@ -66,6 +73,8 @@ Authors: 	Rachael Bogdany
 			<p class="qP">What year was the text editor Vi released?</p>
 			
 			<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">1994</label><br>
+			<div class="redX" id="x4"><img src="../assets/img/redX.png" alt="Red X"></div>
+			<div class="checks" id="check4"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question4" value = "correct" id="q4a2"/> <label for="q4a2">1991</label><br>
 			<input type="radio" name ="question4" value = "q4a3" id="q4a3"/> <label for="q4a3">1976</label><br>
 			<input type="radio" name ="question4" value = "q4a4" id="q4a4"/> <label for="q4a4">1979</label><br>
@@ -77,13 +86,18 @@ Authors: 	Rachael Bogdany
 			<p class="qP">Which command line text editor is the most widely used?</p>
 			
 			<input type="radio" name ="question5" value = "q5a1" id="q5a1"/> <label for="q5a1">Nano</label><br>
+			<div class="redX" id="x5"><img src="../assets/img/redX.png" alt="Red X"></div>
+			<div class="checks" id="check5"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question5" value = "q5a2" id="q5a2"/> <label for="q5a2">Pico</label><br>
 			<input type="radio" name ="question5" value = "correct" id="q5a3"/> <label for="q5a3">Vim</label><br>
 			<input type="radio" name ="question5" value = "q5a4" id="q5a4"/> <label for="q5a4">Gedit</label><br>
 			<p class="helpText">Vim is the most commonly used command line text editor and is often called the "programmer's editor"</p>
 		</div>
 		
-		<input type="submit"  name="Submit" onclick="validateQuiz()"  value="Send"/>
+		<div class="buttonDiv">
+			<input type="submit" name="Submit" onclick="validateQuiz()"  value="Send"/>
+			<input type="button" name="Reload" onclick="document.location.reload(true); window.scrollTo(0,0);" value="Retry Quiz"/>
+		</div>
 	</form>
 </div>
 <?php
