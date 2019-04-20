@@ -36,6 +36,7 @@ Shoujing Wu
                             <a href="<?php echo $path;?>about/kernelshell.php">Kernel v.s. Shell</a>
                             <a href="<?php echo $path;?>about/contentcitations.php">Content Citations</a>
                             <a href="<?php echo $path;?>about/analysiscitations.php">Analysis Citations</a>
+							<a href="<?php echo $path;?>about/aboutus.php">About Us</a>
                         </div>
                     </li>
                     <!-- top level nav item -->
