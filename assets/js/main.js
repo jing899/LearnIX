@@ -15,50 +15,70 @@ Authors:	Rachael Bogdany
 
 function validateQuiz() {
 	//Quiz questions 1-5
-	q1 = document.forms["quiz"]["question1"].value;
-	q2 = document.forms["quiz"]["question2"].value;
-	q3 = document.forms["quiz"]["question3"].value;
-	q4 = document.forms["quiz"]["question4"].value;
-	q5 = document.forms["quiz"]["question5"].value;
+	var q1 = document.forms["quiz"]["question1"].value;
+	var q2 = document.forms["quiz"]["question2"].value;
+	var q3 = document.forms["quiz"]["question3"].value;
+	var q4 = document.forms["quiz"]["question4"].value;
+	var q5 = document.forms["quiz"]["question5"].value;
+	var correct = 0; //The number of questions the user got correct
 	
-	//The folowing if statements check if the input is incorrect. If so, it highlights the correct choice on the doc
+	//The folowing if statements check if the input is incorrect
 	if(q1 != "correct") {
-		document.getElementsByTagName("label")[3].style.backgroundColor = "#7cfc00";
-		document.getElementById("q1").style.backgroundColor = "#E32909"; 
-		document.getElementsByClassName("helpText")[0].style.visibility = "visible";
-		document.getElementsByClassName("helpText")[0].style.backgroundColor = "#7cfc00";
+		document.getElementsByTagName("label")[3].style.backgroundColor = "#7cfc00"; //Highlight correct option
+		document.getElementsByClassName("helpText")[0].style.visibility = "visible"; //Set help text visible
+		document.getElementById("x1").style.visibility = "visible"; //Set red x visible
+		document.getElementsByClassName("helpText")[0].style.backgroundColor = "#7cfc00"; //Highlight help text background
+	}else{ //Question was right, show check mark and add 1 to count
+		document.getElementById("check1").style.visibility = "visible"; //Set check mark visible
+		correct++; //Adds 1 correct to score count
 	}
 	
 	
 	if(q2 != "correct") {
 		document.getElementsByTagName("label")[5].style.backgroundColor = "#7cfc00";
-		document.getElementById("q2").style.backgroundColor = "#E32909";
 		document.getElementsByClassName("helpText")[1].style.visibility = "visible";
+		document.getElementById("x2").style.visibility = "visible";
 		document.getElementsByClassName("helpText")[1].style.backgroundColor = "#7cfc00";
+	}else{
+		document.getElementById("check2").style.visibility = "visible";
+		correct++;
 	}
 	
 	if(q3 != "correct") {
-		document.getElementsByTagName("label")[12].style.backgroundColor = "#7cfc00";
-		document.getElementById("q3").style.backgroundColor = "#E32909";
+		document.getElementsByTagName("label")[12].style.backgroundColor = "#7cfc00"; 
 		document.getElementsByClassName("helpText")[2].style.visibility = "visible";
+		document.getElementById("x3").style.visibility = "visible";
 		document.getElementsByClassName("helpText")[2].style.backgroundColor = "#7cfc00";
+	}else{
+		document.getElementById("check3").style.visibility = "visible";
+		correct++;
 	}
 	
 	if(q4 != "correct") {
 		document.getElementsByTagName("label")[14].style.backgroundColor = "#7cfc00";
-		document.getElementById("q4").style.backgroundColor = "#E32909";
 		document.getElementsByClassName("helpText")[3].style.visibility = "visible";
+		document.getElementById("x4").style.visibility = "visible";
 		document.getElementsByClassName("helpText")[3].style.backgroundColor = "#7cfc00";
+	}else{
+		document.getElementById("check4").style.visibility = "visible";
+		correct++;
 	}
 	
 	if(q5 != "correct") {
-		document.getElementsByTagName("label")[19].style.backgroundColor = "#7cfc00";
-		document.getElementById("q5").style.backgroundColor = "#E32909";
+		document.getElementsByTagName("label")[19].style.backgroundColor = "#7cfc00"; 
 		document.getElementsByClassName("helpText")[4].style.visibility = "visible";
+		document.getElementById("x5").style.visibility = "visible";
 		document.getElementsByClassName("helpText")[4].style.backgroundColor = "#7cfc00";
+	}else{
+		document.getElementById("check5").style.visibility = "visible";
+		correct++;
 	}
 	
-	return false;
+	var score = "Your score is " + correct + "/5"; //A variable describing the users score
+	document.getElementById("scorebaord").innerHTML = score; //Tell the user their score in the scoreboard
+	window.scrollTo(0,0); //Snap the window to top of page
+	
+	return false; //Prevent page reloading/submission
 }
 
 /*
