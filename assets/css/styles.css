@@ -66,11 +66,6 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-}
-
-nav > li {
-    float: left;
 }
 
 /* nav bar only button styling */
@@ -91,8 +86,13 @@ nav li.dropdown {
     display: inline-block;
 }
 
+nav ul li {
+    display: block;
+    position: relative;
+}
+
 /* Dropdown Content */
-nav ul li ul {
+nav ul li > ul {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -109,8 +109,20 @@ nav ul li ul li a {
     text-align: left;
 }
 
+nav li:hover {
+    cursor: pointer;
+}
+
+/* second level dropdown items */
+.dropdown > ul > li:hover ul {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 100%;
+}
+
 /* Show the dropdown on hover */
-.dropdown:hover ul {
+.dropdown:hover > ul {
     display: block;
 }
 
