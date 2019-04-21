@@ -279,6 +279,8 @@ form > input[type="submit"]{
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .prev_next:visited{
