@@ -217,13 +217,17 @@ nav li ul a:hover {
     grid-gap: 2vw;
 }
 
-/* CSS for quizes */
+/* CSS for quizzes */
 .container{
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* CSS for quiz scoreboard*/
+.scoreboard{
+	display: inline;
+}
 
 .quiz{
     width: 70vw;
@@ -240,35 +244,81 @@ nav li ul a:hover {
     visibility: hidden;
 }
 
-/* The h1 elements on quizes */
+/* CSS for red x container */
+.redX{
+	float: right;
+	width: 20%;
+	height: 25%;
+	left: 45%;
+	visibility: hidden;
+	position: absolute;
+}
+
+/* Red x inherits container size */
+.redX img{
+	height: inherit;
+	width: inherit;
+}
+
+/* CSS for check mark */
+.checks{
+	width: 20%;
+	height: 25%;
+	left: 45%;
+	visibility: hidden;
+	position: absolute;
+}
+
+/* Check mark inherits container size */
+.checks img{
+	height: inherit;
+	width: inherit;
+}
+
+/* The h1 elements on quizzes */
 .qh1{
     text-align: center;
 }
 
-/* The h2 elements on quizes */
+/* The h2 elements on quizzes */
 .qh2{
     margin-left:8%;
     margin-top: 4%;
-    margin-right: 81%;
 }
 
-/* The p elements on quizes */
+/* The p elements on quizzes */
 .qP{
     margin-left: 9%;
 }
 
-/* The radio button input elements on quizes */
-form div > input[type="radio"]{
-    margin-left: 11%;
-    margin-top: 1%;
+.buttonDiv{
+	text-align: center;
+	margin-bottom: 5%;
 }
 
-/* The submit button on quizes */
-form > input[type="submit"]{
-    margin-left: 11%;
-    margin-top: 3%;
-    padding: .75%;
-    border-radius: 20px;
+/* The radio button input elements on quizzes */
+form div > input[type="radio"]{
+	margin-left: 11%;
+	margin-top: 1%;
+}
+
+/* The submit button on quizzes */
+form div > input[type="submit"]{
+	margin-top: 3%;
+	padding: .75%;
+	font-size: 12pt;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+/* The reload page button on quizzes */
+form div > input[type="button"]{
+	margin-top: 3%;
+	margin-left: 1%;
+	padding: .75%;
+	font-size: 12pt;
+	cursor: pointer;
+	border-radius: 8px;
 }
 
 /* tutorial page*/
@@ -502,7 +552,7 @@ span{
         display: none;
     }
 
-    /* CSS for quizes */
+/* CSS for quizzes */
     .container{
         width: 80vw;
         margin-left: auto;
@@ -544,42 +594,88 @@ span{
     /*hint message*/
     .helpText {
         margin-left: 10%;
-        margin-right: 35%;
+        margin-right: auto;
         margin-top: 3.5%;
         margin-bottom: 3.5%;
         visibility: hidden;
+		width: 60%;
     }
+	
+	/* CSS for red x container */
+	.redX{
+		float: right;
+		width: 25%;
+		height: 15%;
+		left: 65%;
+		visibility: hidden;
+		position: absolute;
+	}
 
-    /* The h1 elements on quizes */
+	/* Red x inherits container size */
+	.redX img{
+		height: inherit;
+		width: inherit;
+	}
+
+	/* CSS for check mark */
+	.checks{
+		width: 25%;
+		height: 15%;
+		left: 65%;
+		visibility: hidden;
+		position: absolute;
+	}
+
+	/* Check mark inherits container size */
+	.checks img{
+		height: inherit;
+		width: inherit;
+	}
+
+    /* The h1 elements on quizzes */
     .qh1{
         text-align: center;
     }
 
-    /* The h2 elements on quizes */
+    /* The h2 elements on quizzes */
     .qh2{
         margin-left:8%;
         margin-top: 4%;
-        margin-right: 45%;
+		margin-right: 0;
     }
 
-    /* The p elements on quizes */
+    /* The p elements on quizzes */
     .qP{
         margin-left: 9%;
     }
+	
+	.buttonDiv{
+		text-align: center;
+		margin-bottom: 15%;
+	}
 
-    /* The radio button input elements on quizes */
-    form div > input[type="radio"]{
-        margin-left: 11%;
-        margin-top: 1%;
-    }
+	/* The radio button input elements on quizzes */
+	form div > input[type="radio"]{
+		margin-left: 11%;
+		margin-top: 1%;
+	}
 
-    /* The submit button on quizes */
-    form > input[type="submit"]{
-        margin-left: 11%;
-        margin-top: 3%;
-        padding: .75%;
-        border-radius: 20px;
-    }
+	/* The submit button on quizzes */
+	form div > input[type="submit"]{
+		margin-top: 3%;
+		font-size: 12pt;
+		cursor: pointer;
+		border-radius: 8px;
+	}
+
+	/* The reload page button on quizzes */
+	form div > input[type="button"]{
+		margin-top: 3%;
+		margin-left: 1%;
+		font-size: 12pt;
+		cursor: pointer;
+		border-radius: 8px;
+	}
 
     /*index page*/
     #main_title{
