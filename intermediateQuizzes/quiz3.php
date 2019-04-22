@@ -17,6 +17,7 @@ Authors: 	Rachael Bogdany
 <div class = "container">
 	<form onsubmit = "return false;" name = "quiz" action="#" method = "get">
 
+		<div><h2 id="scorebaord"></h2></div>
 		<h1 class="qh1">Intermediate Processes Quiz</h1>
 		<!--
 			The naming convention for quiz question id's is as follows: Question # Answer #
@@ -33,8 +34,10 @@ Authors: 	Rachael Bogdany
 			<p class = "qP">What is the definition of a process?</p>
 			
 			<input type="radio" name ="question1" value = "q1a1" id="q1a1"/> <label for="q1a1">System Software</label><br>
+			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
+			<div class="checks" id="check1"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Something running in the background</label><br>	
-			<input type="radio" name ="question1" value = "correct" id="q1a3"/> <label for="q1a3">An executing program identified by a unique PID (process identifier)</label><br>
+			<input type="radio" name ="question1" value = "correct" id="q1a3"/> <label for="q1a3">An executable identified by a unique PID</label><br>
 			<input type="radio" name ="question1" value = "q1a4" id="q1a4"/> <label for="q1a4">Any executable application</label><br>
 			<p class="helpText">Please review the definition of a process</p>
 		</div>
@@ -44,6 +47,8 @@ Authors: 	Rachael Bogdany
 			<p class="qP">What is the correct command syntax to see every process running?</p>
 			
 			<input type="radio" name ="question2" value = "correct" id="q2a1"/> <label for="q2a1">ps -a</label><br>
+			<div class="redX" id="x2"><img src="../assets/img/redX.png" alt="Red X"></div>
+			<div class="checks" id="check2"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question2" value = "q2a2" id="q2a2"/> <label for="q2a2">getAll -processes</label><br>
 			<input type="radio" name ="question2" value = "q2a3" id="q2a3"/> <label for="q2a3">showAll -processes</label><br>
 			<input type="radio" name ="question2" value = "q2a4" id="q2a4"/> <label for="q2a4">processes -running</label><br>
@@ -56,6 +61,8 @@ Authors: 	Rachael Bogdany
 			
 			
 			<input type="radio" name ="question3" value = "q3a1" id="q3a1"/> <label for="q3a1">ps -info</label><br>
+			<div class="redX" id="x3"><img src="../assets/img/redX.png" alt="Red X"></div>
+			<div class="checks" id="check3"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question3" value = "q3a2" id="q3a2"/> <label for="q3a2">getAll -pInfo</label><br>
 			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">showAll -processesInfo</label><br>
 			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">ps -ag</label><br>
@@ -67,6 +74,8 @@ Authors: 	Rachael Bogdany
 			<p class="qP">What is the command to see current processes and other system info running in real time?</p>
 			
 			<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">sysinfo</label><br>
+			<div class="redX" id="x4"><img src="../assets/img/redX.png" alt="Red X"></div>
+			<div class="checks" id="check4"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question4" value = "correct" id="q4a2"/> <label for="q4a2">top</label><br>
 			<input type="radio" name ="question4" value = "q4a3" id="q4a3"/> <label for="q4a3">show -sysinfo</label><br>
 			<input type="radio" name ="question4" value = "q4a4" id="q4a4"/> <label for="q4a4">Current -proccesses</label><br>
@@ -78,13 +87,18 @@ Authors: 	Rachael Bogdany
 			<p class="qP">What is the correct command to stop all processes except the terminal?</p>
 			
 			<input type="radio" name ="question5" value = "q5a1" id="q5a1"/> <label for="q5a1">kill -all</label><br>
+			<div class="redX" id="x5"><img src="../assets/img/redX.png" alt="Red X"></div>
+			<div class="checks" id="check5"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question5" value = "q5a2" id="q5a2"/> <label for="q5a2">stop -all</label><br>
 			<input type="radio" name ="question5" value = "correct" id="q5a3"/> <label for="q5a3">kill 0</label><br>
 			<input type="radio" name ="question5" value = "q5a4" id="q5a4"/> <label for="q5a4">kill -1</label><br>
 			<p class="helpText">The correct command is "kill 0"</p>
 		</div>
 		
-		<input type="submit"  name="Submit" onclick="validateQuiz()"  value="Send"/>
+		<div class="buttonDiv">
+			<input type="submit" name="Submit" onclick="validateQuiz()"  value="Send"/>
+			<input type="button" name="Reload" onclick="document.location.reload(true); window.scrollTo(0,0);" value="Retry Quiz"/>
+		</div>
 	</form>
 </div>
 <?php
