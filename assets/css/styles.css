@@ -369,6 +369,10 @@ form div > input[type="button"]{
     margin-bottom: 2%;
 }
 
+.ans{
+    width: 23vw;
+}
+
 /* in tutorial question submit button*/
 .btn{
     border-radius: 3px;
