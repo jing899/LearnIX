@@ -33,11 +33,11 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q1">Question 1</h2>
 			<p class = "qP">What are some things packages installed with pip be used for?</p>
 			
-			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">port scanning</label><br>
+			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Port scanning</label><br>
 			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check1"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a3"/> <label for="q1a3">Creating firewall vulnerabilities</label><br>	
-			<input type="radio" name ="question1" value = "correct" id="q1a1"/> <label for="q1a1">bash and python script</label><br>
+			<input type="radio" name ="question1" value = "correct" id="q1a1"/> <label for="q1a1">Bash and python script</label><br>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a4"/> <label for="q1a4">Creating symbolic links</label><br>	
 			<p class="helpText">Remmeber, packages installed with pip are commonly imported into bash and python scripts</p>			
 		</div>
@@ -46,12 +46,12 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q2">Question 2</h2>
 			<p class="qP">What type of software does Yum install on the host?</p>
 			
-			<input type="radio" name ="question2" value = "correct" id="q2a1"/> <label for="q2a1">applications</label><br>
+			<input type="radio" name ="question2" value = "correct" id="q2a1"/> <label for="q2a1">Applications</label><br>
 			<div class="redX" id="x2"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check2"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question2" value = "q2a2" id="q2a2"/> <label for="q2a2">services</label><br>
+			<input type="radio" name ="question2" value = "q2a2" id="q2a2"/> <label for="q2a2">Services</label><br>
 			<input type="radio" name ="question2" value = "q2a3" id="q2a3"/> <label for="q2a3">viruses</label><br>
-			<input type="radio" name ="question2" value = "q2a4" id="q2a4"/> <label for="q2a4">system security updates</label><br>
+			<input type="radio" name ="question2" value = "q2a4" id="q2a4"/> <label for="q2a4">System security updates</label><br>
 			<p class="helpText">Remmeber, Yum installs Applications on the host, Yum installs applcations</p>
 		</div>
 
@@ -59,12 +59,12 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q3">Question 3</h2>
 			<p class="qP">What type of software does Pip install on the host?</p>
 			
-			<input type="radio" name ="question3" value = "q3a1" id="q3a1"/> <label for="q3a1">applications</label><br>
+			<input type="radio" name ="question3" value = "q3a1" id="q3a1"/> <label for="q3a1">Applications</label><br>
 			<div class="redX" id="x3"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check3"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question3" value = "q3a2" id="q3a2"/> <label for="q3a2">viruses</label><br>
-			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">system security updates</label><br>
-			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">packages</label><br>
+			<input type="radio" name ="question3" value = "q3a2" id="q3a2"/> <label for="q3a2">Viruses</label><br>
+			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">System security updates</label><br>
+			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">Packages</label><br>
 			<p class="helpText">Remmeber, Pip installs packages on the host, yum installs applcations</p>
 		</div>
 
@@ -72,12 +72,12 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q4">Question 4</h2>
 			<p class="qP">What is the correct command syntax to update the "chrome" application using Yum?</p>
 			
-			<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">yum get chrome</label><br>
+			<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">Yum get chrome</label><br>
 			<div class="redX" id="x4"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check4"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question4" value = "correct" id="q4a2"/> <label for="q4a2">yum update -y chrome</label><br>
-			<input type="radio" name ="question4" value = "q4a3" id="q4a3"/> <label for="q4a3">yum grab chrome -update</label><br>
-			<input type="radio" name ="question4" value = "q4a4" id="q4a4"/> <label for="q4a4">yum -getLatest chrome</label><br>
+			<input type="radio" name ="question4" value = "correct" id="q4a2"/> <label for="q4a2">Yum update -y chrome</label><br>
+			<input type="radio" name ="question4" value = "q4a3" id="q4a3"/> <label for="q4a3">Yum grab chrome -update</label><br>
+			<input type="radio" name ="question4" value = "q4a4" id="q4a4"/> <label for="q4a4">Yum -getLatest chrome</label><br>
 			<p class="helpText">Please review the "yum" man pages for proper command syntax</p>
 		</div>
 
@@ -85,12 +85,12 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q5">Question 5</h2>
 			<p class="qP">What is the correct command syntax to install a package called "sshd" with pip?</p>
 			
-			<input type="radio" name ="question5" value = "q5a1" id="q5a1"/> <label for="q5a1">install sshd</label><br>
+			<input type="radio" name ="question5" value = "q5a1" id="q5a1"/> <label for="q5a1">Install sshd</label><br>
 			<div class="redX" id="x5"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check5"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question5" value = "q5a2" id="q5a2"/> <label for="q5a2">download sshd</label><br>
-			<input type="radio" name ="question5" value = "correct" id="q5a3"/> <label for="q5a3">pip install sshd</label><br>
-			<input type="radio" name ="question5" value = "q5a4" id="q5a4"/> <label for="q5a4">pip grab sshd</label><br>
+			<input type="radio" name ="question5" value = "q5a2" id="q5a2"/> <label for="q5a2">Download sshd</label><br>
+			<input type="radio" name ="question5" value = "correct" id="q5a3"/> <label for="q5a3">Pip install sshd</label><br>
+			<input type="radio" name ="question5" value = "q5a4" id="q5a4"/> <label for="q5a4">Pip grab sshd</label><br>
 			<p class="helpText">Please review the "pip" man pages for proper command syntax</p>
 		</div>
 		

@@ -25,7 +25,7 @@ Shoujing Wu
             </div>
             <label id="button" for="toggle">&#9776;</label>
             <input type="checkbox" id="toggle" onclick="expandHeader()" autocomplete="off"/>
-		    <nav id="nav" class="menu">
+		    <nav id="nav">
                 <!-- top level nav bar -->
                 <ul>
                     <!-- top level nav item -->
@@ -48,7 +48,7 @@ Shoujing Wu
                         <a>QUIZZES</a>
                         <ul>
                             <li>
-                                <a>Novice</a>
+                                <a>Novice &#9657;</a>
                                 <ul>
 									<li><a href="<?php echo $path;?>noviceQuizzes/quiz6.php">SSH Quiz</a></li>
                                     <li><a href="<?php echo $path;?>noviceQuizzes/quiz1.php">Navigation Quiz</a></li>
@@ -60,7 +60,7 @@ Shoujing Wu
                             </li>
 
                             <li>
-                                <a>Intermediate</a>
+                                <a>Intermediate &#9657;</a>
                                 <ul>
                                     <li><a href="<?php echo $path;?>intermediateQuizzes/quiz1.php">System Information Quiz</a></li>
                                     <li><a href="<?php echo $path;?>intermediateQuizzes/quiz2.php">Pip/Yum Quiz</a></li>
@@ -71,7 +71,7 @@ Shoujing Wu
                             </li>
 
                             <li>
-                                <a>Advanced</a>
+                                <a>Advanced &#9657;</a>
                                 <ul>
                                     <li><a href="<?php echo $path;?>advancedQuizzes/quiz1.php">Advanced Programs Quiz</a></li>
                                     <li><a href="<?php echo $path;?>advancedQuizzes/quiz2.php">Regular Expressions Quiz</a></li>

@@ -50,15 +50,15 @@ header {
     display: none;
 }
 
-/* puts nav menu items on same line */
-nav > ul > li {
-    float: left;
-}
-
 /* nav bar css */
 nav {
     position: relative;
     top: 1em;
+}
+
+/* puts nav menu items on same line */
+nav > ul > li {
+    float: left;
 }
 
 /* Top level nav menu css */
@@ -77,66 +77,19 @@ nav li a {
     color: black;
 }
 
-/* nav bar only button hover shading */
-nav li a:hover {
-    background-color: #f7f7f7;
-}
-
-nav li.dropdown {
-    display: inline-block;
-}
-
+/* makes double drop down menu line up with option vertically */
 nav ul li {
-    display: block;
     position: relative;
 }
 
-/* Dropdown Content */
-nav ul li > ul {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
 
-/* Dropdown Items */
-nav ul li ul li a {
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-nav li:hover {
-    cursor: pointer;
-}
-
-/* second level dropdown items */
-.dropdown > ul > li:hover ul {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 100%;
-}
-
-/* Show the dropdown on hover */
-.dropdown:hover > ul {
-    display: block;
-}
-
-nav li ul a:hover {
-    background-color: #f1f1f1;
-}
 
 #toggle{ 
     display: none; 
 }
 
+
 /* ============= END GLOBAL NAV CSS =============== */
-
-
 
 
 /*index page*/
@@ -433,13 +386,67 @@ span{
 
 /* ============= START MEDIA QUERY CSS =============== */
 
-@media only screen and (max-width: 840px) {
-
-    body {
-        margin: 0;
-        position: relative;
+@media only screen and (min-width: 840px) {
+    
+    /* Dropdown Content */
+    nav ul li > ul {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
     }
 
+    /* Dropdown Items */
+    nav ul li ul li a {
+        display: block;
+        text-align: left;
+    }
+
+    /* changes cursor to a pointer on desktop */
+    nav li:hover {
+        cursor: pointer;
+    }
+    
+    /* nav bar only button hover shading */
+    nav li a:hover {
+        background-color: #f7f7f7;
+    }
+
+    /* second level dropdown items */
+    .dropdown > ul > li:hover ul {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 100%;
+    }
+
+    /* Show the dropdown on hover */
+    .dropdown:hover > ul {
+        display: block;
+    }
+
+    nav li ul a:hover {
+        background-color: #f1f1f1;
+    }
+    
+} /* end desktop nav css */
+
+@media only screen and (max-width: 840px) {
+
+
+    
+/* ========== START MOBILE NAV CSS ============= */
+    
+    header {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        margin: 0;
+        width: 100%;
+    }
+    
     /* adapt logo to mobile */
     #logo {
         position: absolute;
@@ -448,38 +455,38 @@ span{
         height: 40px;
     }
 
-    nav > ul {
-        position: relative;
-        top: 2em;
+    nav {
+        display: none;
+        top: 5em;
     }
-
+    
+    nav > ul > li {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        border-bottom: 1px solid #EAEAEB;
+    }
+    
+    /* keeps button above menu */
     #button, #toggle {
         z-index: 5;
     }
 
-    header {
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        margin: 0;
-        width: 100%;
-    }
-
-    nav {
-        text-align: center;
-        width: 100%;
-        display: none;
-        height: 100%;
-        position: relative;
-        top: 2em;
-    }
-
-    .menu a {
+    /* CSS for mobile menu options while open */
+    
+    #toggle:checked + #nav {
         display: block;
-        border-bottom: 1px solid #EAEAEB;
-        margin: 0;
     }
 
+    #toggle:checked + #nav ul {
+        display: inline;
+    }
+    
+    #toggle:checked + #nav ul li ul {
+        display: none;
+    }
+
+    /* open/close mobile nav button */
     #button {
         position: absolute;
         top: 1.1em;
@@ -488,46 +495,21 @@ span{
         margin-left: .8em;
     }
 
-    /* Show menu */
-    #toggle:checked + .menu {
-        display: block;
-    }
-
-    #toggle:checked + .menu ul {
-        display: inline;
-    }
-
-    #toggle:checked + .menu li {
-        display: inline;
-        list-style-type: none;
-        float: none;
-    }
-
-    .dropdown-content {
-        position: inherit;
-        width: 100%;
-        box-shadow: none;
-    }
-
-    .dropdown-content a {
-        text-align: center;
-    }
-
     @keyframes slideRight {
         from {
-            margin-left: .8em;
+            margin-left: 1.1em;
         }
         to {
-            margin-left: 80vw;
+            margin-left: 85vw;
         }
     }
 
     @keyframes slideLeft {
         from {
-            margin-left: 80vw;
+            margin-left: 85vw;
         }
         to {
-            margin-left: .8em;
+            margin-left: 1.1em;
         }
     }
 
@@ -543,6 +525,13 @@ span{
         animation-fill-mode: forwards;
     }
 
+    #branding {
+        display: none;
+    }
+    
+/* ========== END MOBILE NAV CSS ============= */
+
+    /* verify this is still needed, its not for nav */
     .drawer-background {
         background-color: green;
         display: flex;
@@ -551,11 +540,8 @@ span{
         height: 100vh;
         z-index: -10;
     }
-
-    #branding {
-        display: none;
-    }
-
+    
+    
 /* CSS for quizzes */
     .container{
         width: 80vw;
@@ -587,7 +573,6 @@ span{
         margin-top: 3.5%;
         margin-bottom: 15.5%;		
     }
-
 
     .quiz{
         width: 70vw;
@@ -757,11 +742,7 @@ span{
             "tuto_ques"
             "tran_btn";
     }
-}
+} /* ========== END MOBILE MEDIA QUERY CSS ======== */
 
-@media only screen and (min-width: 601px) and (max-width: 950px){
-    #branding {
-        display: none;
-    }
-}
+@media only screen and (min-width: 601px) and (max-width: 950px) {}
 /* ============= END MEDIA QUERY CSS =============== */

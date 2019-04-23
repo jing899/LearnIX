@@ -33,12 +33,12 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q1">Question 1</h2>
 			<p class = "qP">What is the command that shows the commplete path of a file?</p>
 			
-			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">path -full</label><br>
+			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Path -full</label><br>
 			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check1"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question1" value = "q1a2" id="q1a3"/> <label for="q1a3">path -all</label><br>
-			<input type="radio" name ="question1" value = "correct" id="q1a1"/> <label for="q1a1">which</label><br>
-			<input type="radio" name ="question1" value = "q1a2" id="q1a4"/> <label for="q1a4">completePath -file</label><br>
+			<input type="radio" name ="question1" value = "q1a2" id="q1a3"/> <label for="q1a3">Path -all</label><br>
+			<input type="radio" name ="question1" value = "correct" id="q1a1"/> <label for="q1a1">Which</label><br>
+			<input type="radio" name ="question1" value = "q1a2" id="q1a4"/> <label for="q1a4">CompletePath -file</label><br>
 			<p class="helpText">The which command shows the complete path of a file</p>			
 		</div>
 
@@ -63,21 +63,21 @@ Authors: 	Rachael Bogdany
 			<div class="redX" id="x3"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check3"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question3" value = "q3a2" id="q3a2"/> <label for="q3a2">Zar</label><br>
-			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">compress</label><br>
-			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">zip</label><br>
-			<p class="helpText">Remmeber, Zip/unzip is a file compression program found on linux and windows</p>
+			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">Compress</label><br>
+			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">Zip</label><br>
+			<p class="helpText">Remember, Zip/unzip is a file compression program found on linux and windows</p>
 		</div>
 
 		<div id = "fourth">
 			<h2 class="qh2" id="q4">Question 4</h2>
 			<p class="qP">What is an example of a file transfer application</p>
 			
-			<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">putty</label><br>
+			<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">Putty</label><br>
 			<div class="redX" id="x4"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check4"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question4" value = "correct" id="q4a2"/> <label for="q4a2">filezilla</label><br>
-			<input type="radio" name ="question4" value = "q4a3" id="q4a3"/> <label for="q4a3">ssa</label><br>
-			<input type="radio" name ="question4" value = "q4a4" id="q4a4"/> <label for="q4a4">shaa</label><br>
+			<input type="radio" name ="question4" value = "correct" id="q4a2"/> <label for="q4a2">Filezilla</label><br>
+			<input type="radio" name ="question4" value = "q4a3" id="q4a3"/> <label for="q4a3">Ssa</label><br>
+			<input type="radio" name ="question4" value = "q4a4" id="q4a4"/> <label for="q4a4">Shaa</label><br>
 			<p class="helpText">Filezilla is a program that uses the sftp protocol to transfer files</p>
 		</div>
 
@@ -85,12 +85,12 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q5">Question 5</h2>
 			<p class="qP">What is the protocol used to remotely log into a device?</p>
 			
-			<input type="radio" name ="question5" value = "q5a1" id="q5a1"/> <label for="q5a1">scp</label><br>
+			<input type="radio" name ="question5" value = "q5a1" id="q5a1"/> <label for="q5a1">Scp</label><br>
 			<div class="redX" id="x5"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check5"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question5" value = "q5a2" id="q5a2"/> <label for="q5a2">sftp</label><br>
-			<input type="radio" name ="question5" value = "correct" id="q5a3"/> <label for="q5a3">ssh</label><br>
-			<input type="radio" name ="question5" value = "q5a4" id="q5a4"/> <label for="q5a4">tcp/ip</label><br>
+			<input type="radio" name ="question5" value = "q5a2" id="q5a2"/> <label for="q5a2">Sftp</label><br>
+			<input type="radio" name ="question5" value = "correct" id="q5a3"/> <label for="q5a3">Ssh</label><br>
+			<input type="radio" name ="question5" value = "q5a4" id="q5a4"/> <label for="q5a4">Tcp/ip</label><br>
 			<p class="helpText">The ssh protocol is used to remotely log in an access a machine or host</p>
 		</div>
 		
