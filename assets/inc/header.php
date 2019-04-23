@@ -38,7 +38,6 @@ Shoujing Wu
 							<li><a href="<?php echo $path;?>about/architecture.php">Unix Architecture</a></li>
                             <li><a href="<?php echo $path;?>about/kernelshell.php">Kernel v.s. Shell</a></li>
                             <li><a href="<?php echo $path;?>about/contentcitations.php">Content Citations</a></li>
-                            <li><a href="<?php echo $path;?>about/analysiscitations.php">Analysis Citations</a></li>
                             <li><a href="<?php echo $path;?>about/aboutus.php">About Us</a></li>
                         </ul>
                     </li>
