@@ -46,12 +46,12 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q2">Question 2</h2>
 			<p class="qP">Which choice best defines Vim?</p>
 			
-			<input type="radio" name ="question2" value = "correct" id="q2a1"/> <label for="q2a1">VI improved, adds to bill Joy’s vi editor and can be used both in the command line and as a standalone application on a GUI</label><br>
+			<input type="radio" name ="question2" value = "correct" id="q2a1"/> <label for="q2a1">VI improved</label><br>
 			<div class="redX" id="x2"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check2"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question2" value = "q2a2" id="q2a2"/> <label for="q2a2">The predacessor to Vi</label><br>
-			<input type="radio" name ="question2" value = "q2a3" id="q2a3"/> <label for="q2a3">A non command line text editor</label><br>
-			<input type="radio" name ="question2" value = "q2a4" id="q2a4"/> <label for="q2a4">A command line program to read binary files</label><br>
+			<input type="radio" name ="question2" value = "q2a3" id="q2a3"/> <label for="q2a3">A non CLI text editor</label><br>
+			<input type="radio" name ="question2" value = "q2a4" id="q2a4"/> <label for="q2a4">A CLI program to read binary files</label><br>
 			<p class="helpText">Remember, Vim is VI improved and can be a standalone app as well as a GUI</p>
 		</div>
 		
@@ -65,7 +65,7 @@ Authors: 	Rachael Bogdany
 			<input type="radio" name ="question3" value = "q3a2" id="q3a2"/> <label for="q3a2">Bill Gates</label><br>
 			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">Elon Musk</label><br>
 			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">Bill Joy</label><br>
-			<p class="helpText">Bill joy created Vi in 1976</p>
+			<p class="helpText">Remember, Bill joy created Vi in 1976</p>
 		</div>
 
 		<div id = "fourth">

@@ -33,12 +33,12 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q1">Question 1</h2>
 			<p class = "qP">What is the correct command syntax to change a file called "imports" permissions to "rwx-rw-x"?</p>
 			
-			<input type="radio" name ="question1" value = "q1a1" id="q1a1"/> <label for="q1a1">chmod imports 551</label><br>
+			<input type="radio" name ="question1" value = "q1a1" id="q1a1"/> <label for="q1a1">Chmod imports 551</label><br>
 			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check1"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">perm imports rwx-rw-x</label><br>	
-			<input type="radio" name ="question1" value = "correct" id="q1a3"/> <label for="q1a3">chmod 761 imports</label><br>
-			<input type="radio" name ="question1" value = "q1a4" id="q1a4"/> <label for="q1a4">perms -default imports</label><br>
+			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Perm imports rwx-rw-x</label><br>	
+			<input type="radio" name ="question1" value = "correct" id="q1a3"/> <label for="q1a3">Chmod 761 imports</label><br>
+			<input type="radio" name ="question1" value = "q1a4" id="q1a4"/> <label for="q1a4">Perms -default imports</label><br>
 			<p class="helpText">Please review the "chmod" man pages for proper command syntax </p>
 		</div>
 		
@@ -62,8 +62,8 @@ Authors: 	Rachael Bogdany
 			<input type="radio" name ="question3" value = "q3a1" id="q3a1"/> <label for="q3a1">Owner, user, visitor</label><br>
 			<div class="redX" id="x3"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check3"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question3" value = "q3a2" id="q3a2"/> <label for="q3a2">root, user, other</label><br>
-			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">root, owner, user</label><br>
+			<input type="radio" name ="question3" value = "q3a2" id="q3a2"/> <label for="q3a2">Root, user, other</label><br>
+			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">Root, owner, user</label><br>
 			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">Owner, group, Other</label><br>
 			<p class="helpText">Remember, file permissions are determined by the group you belong in. Either owner, group or other</p>
 		</div>
