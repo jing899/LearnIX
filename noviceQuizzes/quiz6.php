@@ -31,7 +31,7 @@ Authors: 	Rachael Bogdany
 		-->	
 		<div id = "first">
 			<h2 class="qh2" id="q1">Question 1</h2>
-			<p class = "qP">What is the command that shows the commplete path of a file?</p>
+			<p class = "qP">What is the command that shows the complete path of a file?</p>
 			
 			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Path -full</label><br>
 			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
