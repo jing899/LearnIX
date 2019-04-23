@@ -33,12 +33,12 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q1">Question 1</h2>
 			<p class = "qP">What system command tells you the current date?</p>
 			
-			<input type="radio" name ="question1" value = "q1a1" id="q1a1"/> <label for="q1a1">currentDate</label><br>
+			<input type="radio" name ="question1" value = "q1a1" id="q1a1"/> <label for="q1a1">CurrentDate</label><br>
 			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check1"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">date -current</label><br>	
-			<input type="radio" name ="question1" value = "correct" id="q1a3"/> <label for="q1a3">date</label><br>
-			<input type="radio" name ="question1" value = "q1a4" id="q1a4"/> <label for="q1a4">getDate</label><br>
+			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Date -current</label><br>	
+			<input type="radio" name ="question1" value = "correct" id="q1a3"/> <label for="q1a3">Date</label><br>
+			<input type="radio" name ="question1" value = "q1a4" id="q1a4"/> <label for="q1a4">GetDate</label><br>
 			<p class="helpText">Remember, the system command "date" tells you the current date information</p>
 		</div>
 
@@ -46,12 +46,12 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q2">Question 2</h2>
 			<p class="qP">What is the system command to find out how long a program has been runing?</p>
 			
-			<input type="radio" name ="question2" value = "correct" id="q2a1"/> <label for="q2a1">time</label><br>
+			<input type="radio" name ="question2" value = "correct" id="q2a1"/> <label for="q2a1">Time</label><br>
 			<div class="redX" id="x2"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check2"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question2" value = "q2a2" id="q2a2"/> <label for="q2a2">getTime</label><br>
-			<input type="radio" name ="question2" value = "q2a3" id="q2a3"/> <label for="q2a3">tellTime</label><br>
-			<input type="radio" name ="question2" value = "q2a4" id="q2a4"/> <label for="q2a4">getTime -all</label><br>
+			<input type="radio" name ="question2" value = "q2a2" id="q2a2"/> <label for="q2a2">GetTime</label><br>
+			<input type="radio" name ="question2" value = "q2a3" id="q2a3"/> <label for="q2a3">TellTime</label><br>
+			<input type="radio" name ="question2" value = "q2a4" id="q2a4"/> <label for="q2a4">GetTime -all</label><br>
 			<p class="helpText">Remmeber, the system command time says how long a program has been running</p>
 		</div>
 
@@ -59,12 +59,12 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q3">Question 3</h2>
 			<p class="qP">What is the system command that outputs an ASCII calendar?</p>
 			
-			<input type="radio" name ="question3" value = "q3a1" id="q3a1"/> <label for="q3a1">getCal</label><br>
+			<input type="radio" name ="question3" value = "q3a1" id="q3a1"/> <label for="q3a1">GetCal</label><br>
 			<div class="redX" id="x3"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check3"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question3" value = "q3a2" id="q3a2"/> <label for="q3a2">show -cal</label><br>
-			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">getCal -ASCII</label><br>
-			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">cal</label><br>
+			<input type="radio" name ="question3" value = "q3a2" id="q3a2"/> <label for="q3a2">Show -cal</label><br>
+			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">GetCal -ASCII</label><br>
+			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">Cal</label><br>
 			<p class="helpText">Please review the "cal" man pages for proper command syntax</p>
 		</div>
 
@@ -72,12 +72,12 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q4">Question 4</h2>
 			<p class="qP">What is the system command to get disk space?</p>
 			
-			<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">getDiskInfo</label><br>
+			<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">GetDiskInfo</label><br>
 			<div class="redX" id="x4"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check4"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question4" value = "correct" id="q4a2"/> <label for="q4a2">df</label><br>
-			<input type="radio" name ="question4" value = "q4a3" id="q4a3"/> <label for="q4a3">getSpace</label><br>
-			<input type="radio" name ="question4" value = "q4a4" id="q4a4"/> <label for="q4a4">show -disk</label><br>
+			<input type="radio" name ="question4" value = "correct" id="q4a2"/> <label for="q4a2">Df</label><br>
+			<input type="radio" name ="question4" value = "q4a3" id="q4a3"/> <label for="q4a3">GetSpace</label><br>
+			<input type="radio" name ="question4" value = "q4a4" id="q4a4"/> <label for="q4a4">Show -disk</label><br>
 			<p class="helpText">Please review the "df" man pages for proper command syntax</p>
 		</div>
 
@@ -85,12 +85,12 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q5">Question 5</h2>
 			<p class="qP">What is the system command to tell how long the host has been up?</p>
 			
-			<input type="radio" name ="question5" value = "q5a1" id="q5a1"/> <label for="q5a1">life -host</label><br>
+			<input type="radio" name ="question5" value = "q5a1" id="q5a1"/> <label for="q5a1">Life -host</label><br>
 			<div class="redX" id="x5"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check5"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question5" value = "q5a2" id="q5a2"/> <label for="q5a2">lifetime</label><br>
-			<input type="radio" name ="question5" value = "correct" id="q5a3"/> <label for="q5a3">uptime</label><br>
-			<input type="radio" name ="question5" value = "q5a4" id="q5a4"/> <label for="q5a4">list -uptime</label><br>
+			<input type="radio" name ="question5" value = "q5a2" id="q5a2"/> <label for="q5a2">Lifetime</label><br>
+			<input type="radio" name ="question5" value = "correct" id="q5a3"/> <label for="q5a3">Uptime</label><br>
+			<input type="radio" name ="question5" value = "q5a4" id="q5a4"/> <label for="q5a4">List -uptime</label><br>
 			<p class="helpText">Please review the "uptime" man pages for proper command syntax</p>
 		</div>
 		
