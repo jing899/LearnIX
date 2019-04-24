@@ -21,7 +21,10 @@ Shoujing Wu
     <body onresize="disableNav()">
         <header id="header">
             <div id="branding">
-                <img id="logo" src="<?php echo $path;?>assets/img/logo.png" alt="Logo"/>
+                <p>Unix<br>Tutorials</p>
+                <a href="<?php echo $path;?>index.php">
+                    <img id="logo" src="<?php echo $path;?>assets/img/logo.png" alt="Logo"/>
+                </a>
             </div>
             <label id="button" for="toggle">&#9776;</label>
             <input type="checkbox" id="toggle" onclick="expandHeader()"/>

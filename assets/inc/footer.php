@@ -7,6 +7,12 @@ Authors: 	Rachael Bogdany
 			Shoujing Wu 
 -->
 	
-	<footer id="copyright">&copy; LearnIX</footer>
+	<footer id="copyright">
+        
+        <p>&copy; LearnIX</p>
+        <a href="<?php echo $path;?>about/aboutus.php">About Us</a>
+        
+    </footer>
+    
 </body>
 </html>
