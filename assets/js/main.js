@@ -188,7 +188,7 @@ function validate_tuto4(){
     var ans4 = document.forms["in_quiz4"]["qt4"].value;
 
     if(ans4){
-        document.getElementById('result4').innerHTML = 'The answer is ' + ans3;
+        document.getElementById('result4').innerHTML = 'The answer is ' + ans4;
     }else{
         document.getElementById('result4').innerHTML = 'Please select one';
     }
