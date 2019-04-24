@@ -10,7 +10,7 @@ Authors: 	Rachael Bogdany
 <?php
 	//include the header
 	$path = '../';
-	$page = 'Expert Commands Quiz';
+	$page = 'Advanced Commands Quiz';
 	include $path.'assets/inc/header.php';
 ?>
 
@@ -37,7 +37,7 @@ Authors: 	Rachael Bogdany
 			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check1"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Encrypts data sent to tbe server</label><br>
-			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">CLI tool for making http requests</label><br>			
+			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">Download files and webpage content</label><br>			
 			<input type="radio" name ="question1" value = "q1a3" id="q1a3"/> <label for="q1a3">Concats file contents</label><br>
 			<p class="helpText">Curl is a command line tool for making requests over HTTP(s)</p>
 		</div>
