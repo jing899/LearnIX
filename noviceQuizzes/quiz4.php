@@ -37,8 +37,8 @@ Authors: 	Rachael Bogdany
 			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check1"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Just Vi and Vim </label><br>	
-			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">All of the above</label><br>
 			<input type="radio" name ="question1" value = "q1a3" id="q1a3"/> <label for="q1a3">Just vim and nano</label><br>
+			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">All of the above</label><br>
 			<p class="helpText">All of the above are comand line text editors</p>
 		</div>
 		
