@@ -10,14 +10,14 @@ Authors: 	Rachael Bogdany
 <?php
 	//include the header
 	$path = '../';
-	$page = 'Novice Command Line Commands Quiz';
+	$page = 'Novice Basics Quiz';
 	include $path.'assets/inc/header.php';
 ?>
 <div class = "container">
 	<form onsubmit="return false;" name="quiz" action="#" method="get">
 
 		<div><h2 id="scorebaord"></h2></div>
-		<h1 class="qh1">Novice Command Line Commands Quiz</h1>
+		<h1 class="qh1">Novice Basics Quiz</h1>
 		<!--
 			The naming convention for quiz question id's is as follows: Question # Answer #
 			For example Question 2 Answer 4's id would be: "q2a4"
