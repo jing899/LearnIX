@@ -18,7 +18,7 @@ Shoujing Wu
         <script type="text/javascript" src="<?php echo $path;?>assets/js/main.js"></script>
     </head>
 
-    <body onresize="disableNav()">
+    <body>
         <header id="header">
             <div id="branding">
                 <img id="logo" src="<?php echo $path;?>assets/img/logo.png" alt="Logo"/>
@@ -38,7 +38,7 @@ Shoujing Wu
                             <a>ABOUT</a>
                         </label>
                         <ul>
-							<li><a href="<?php echo $path;?>about/architecture.php">Unix Architecture</a></li>
+							<li <?php echo(($page=='Unix Architecture') ?' class="active"':'');?>><a href="<?php echo $path;?>about/architecture.php">Unix Architecture</a></li>
                             <li><a href="<?php echo $path;?>about/kernelshell.php">Kernel v.s. Shell</a></li>
                             <li><a href="<?php echo $path;?>about/contentcitations.php">Content Citations</a></li>
                             <li><a href="<?php echo $path;?>about/aboutus.php">About Us</a></li>

@@ -20,10 +20,6 @@ body {
     width: 3em;
 }
 
-.dropdown > input {
-    display: none;
-}
-
 #h1 {
     float: left;
 }
@@ -31,6 +27,11 @@ body {
 #branding {
     position: absolute;
     right: 5vw;
+}
+
+/* hide checkbox */
+nav input {
+    display: none;
 }
 
 /* ============= BEGIN GLOBAL NAV CSS =============== */
@@ -82,7 +83,10 @@ nav ul li {
     position: relative;
 }
 
-
+/* Breadcrumb style for displaying active page in nav */
+.active {
+    border-left: 2px solid orange;
+}
 
 #toggle{ 
     display: none; 
@@ -491,6 +495,7 @@ span{
         right: 0px;
         margin: 0;
         width: 100%;
+        overflow-y: scroll;
     }
 
     /* adapt logo to mobile */
@@ -506,11 +511,19 @@ span{
         top: 5em;
     }
 
-    nav > ul > li {
+    /* Mobile nav option styling */
+    nav > ul li {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         width: 100%;
-        border-bottom: 1px solid #EAEAEB;
+        border-bottom: 1px solid #E8E8E8;
+    }
+    
+    nav label {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     /* keeps button above menu */
@@ -520,16 +533,31 @@ span{
 
     /* CSS for mobile menu options while open */
 
+    /* Show nav when icon is pressed */
     #toggle:checked + #nav {
         display: block;
     }
 
-    #toggle:checked + #nav ul {
-        display: inline;
+    nav ul li ul {
+        display: none;
     }
 
-    #toggle:checked + #nav ul li ul {
-        display: none;
+    
+    
+    /* Display dropdown on mobile */
+    nav li.dropdown > input:checked ~ ul {
+        display: block;
+        background-color: #f2f2f2;
+    }
+
+    nav li.dropdown > input:checked + label {
+        border-bottom: 1px solid #e8e8e8;
+        background-color: #f7f7f7;
+    }
+
+    nav li.dropdown > input:checked ~ ul input:checked ~ ul {
+        display: block;
+        background-color: #e2e2e2;
     }
 
     /* open/close mobile nav button */
@@ -574,6 +602,8 @@ span{
     #branding {
         display: none;
     }
+    
+    /* ========== END MOBILE NAV CSS ============= */
 
     /* CSS for quizzes */
     .container{
