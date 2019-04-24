@@ -10,7 +10,7 @@ Authors: 	Rachael Bogdany
 <?php
 	//include the header
 	$path = '../';
-	$page = 'Intermediate Important Programs Quiz';
+	$page = 'Intermediate SSH Quiz';
 	include $path.'assets/inc/header.php';
 ?>
 
@@ -18,7 +18,7 @@ Authors: 	Rachael Bogdany
 	<form onsubmit = "return false;" name = "quiz" action="#" method = "get">
 
 		<div><h2 id="scorebaord"></h2></div>
-		<h1 class="qh1">Novice Important Programs Quiz</h1>
+		<h1 class="qh1">Novice SSH Quiz</h1>
 		<!--
 			The naming convention for quiz question id's is as follows: Question # Answer #
 			For example Question 2 Answer 4's id would be: "q2a4"
@@ -31,7 +31,7 @@ Authors: 	Rachael Bogdany
 		-->	
 		<div id = "first">
 			<h2 class="qh2" id="q1">Question 1</h2>
-			<p class = "qP">What is the command that shows the commplete path of a file?</p>
+			<p class = "qP">What is the command that shows the complete path of a file?</p>
 			
 			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Path -full</label><br>
 			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
@@ -70,7 +70,7 @@ Authors: 	Rachael Bogdany
 
 		<div id = "fourth">
 			<h2 class="qh2" id="q4">Question 4</h2>
-			<p class="qP">What is an example of a file transfer application</p>
+			<p class="qP">What is an example of a file transfer application?</p>
 			
 			<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">Putty</label><br>
 			<div class="redX" id="x4"><img src="../assets/img/redX.png" alt="Red X"></div>

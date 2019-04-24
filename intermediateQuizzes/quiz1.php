@@ -44,7 +44,7 @@ Authors: 	Rachael Bogdany
 
 		<div id = "second">
 			<h2 class="qh2" id="q2">Question 2</h2>
-			<p class="qP">What is the system command to find out how long a program has been runing?</p>
+			<p class="qP">What is the system command to find out how long a program has been running?</p>
 			
 			<input type="radio" name ="question2" value = "correct" id="q2a1"/> <label for="q2a1">Time</label><br>
 			<div class="redX" id="x2"><img src="../assets/img/redX.png" alt="Red X"></div>
@@ -52,7 +52,7 @@ Authors: 	Rachael Bogdany
 			<input type="radio" name ="question2" value = "q2a2" id="q2a2"/> <label for="q2a2">GetTime</label><br>
 			<input type="radio" name ="question2" value = "q2a3" id="q2a3"/> <label for="q2a3">TellTime</label><br>
 			<input type="radio" name ="question2" value = "q2a4" id="q2a4"/> <label for="q2a4">GetTime -all</label><br>
-			<p class="helpText">Remmeber, the system command time says how long a program has been running</p>
+			<p class="helpText">Remember, the system command time says how long a program has been running</p>
 		</div>
 
 		<div id = "third">
