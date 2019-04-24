@@ -20,6 +20,10 @@ body {
     width: 3em;
 }
 
+.dropdown > input {
+    display: none;
+}
+
 #h1 {
     float: left;
 }
@@ -78,16 +82,15 @@ nav ul li {
     position: relative;
 }
 
-/* hide checkbox */
-nav input {
-    display: none;
-}
+
 
 #toggle{ 
     display: none; 
 }
 
+
 /* ============= END GLOBAL NAV CSS =============== */
+
 
 /*index page*/
 #main_title{
@@ -154,6 +157,7 @@ nav input {
     color: rgba(0,0,0,0.75);
 }
 
+
 .content{
     margin-left: 5vw;
     margin-right: 5vw;
@@ -175,7 +179,7 @@ nav input {
 
 /* CSS for quiz scoreboard*/
 .scoreboard{
-    display: inline;
+	display: inline;
 }
 
 .quiz{
@@ -187,7 +191,7 @@ nav input {
 /*hint message*/
 .helpText {
     margin-left: 10%;
-    margin-right: 50%;
+    margin-right: 57%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     visibility: hidden;
@@ -195,33 +199,33 @@ nav input {
 
 /* CSS for red x container */
 .redX{
-    float: right;
-    width: 20%;
-    height: 25%;
-    left: 45%;
-    visibility: hidden;
-    position: absolute;
+	float: right;
+	width: 20%;
+	height: 25%;
+	left: 57%;
+	visibility: hidden;
+	position: absolute;
 }
 
 /* Red x inherits container size */
 .redX img{
-    height: inherit;
-    width: inherit;
+	height: inherit;
+	width: inherit;
 }
 
 /* CSS for check mark */
 .checks{
-    width: 20%;
-    height: 25%;
-    left: 45%;
-    visibility: hidden;
-    position: absolute;
+	width: 20%;
+	height: 25%;
+	left: 57%;
+	visibility: hidden;
+	position: absolute;
 }
 
 /* Check mark inherits container size */
 .checks img{
-    height: inherit;
-    width: inherit;
+	height: inherit;
+	width: inherit;
 }
 
 /* The h1 elements on quizzes */
@@ -241,37 +245,27 @@ nav input {
 }
 
 .buttonDiv{
-    text-align: center;
-    margin-bottom: 5%;
+	text-align: center;
+	margin-bottom: 5%;
 }
 
 /* The radio button input elements on quizzes */
 form div > input[type="radio"]{
-    margin-left: 11%;
-    margin-top: 1%;
-}
-
-/* The submit button on quizzes */
-form div > input[type="submit"]{
-    margin-top: 3%;
-    padding: .75%;
-    font-size: 12pt;
-    cursor: pointer;
-    border-radius: 8px;
+	margin-left: 11%;
+	margin-top: 1%;
 }
 
 /* The reload page button on quizzes */
 form div > input[type="button"]{
-    margin-top: 3%;
-    margin-left: 1%;
-    padding: .75%;
-    font-size: 12pt;
-    cursor: pointer;
-    border-radius: 8px;
+	margin-left: 1%;
+	border-radius: 3px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(129,191,176);
 }
 
-/* tutorial page
-   previous and next button*/
+/* tutorial page*/
+/* previous and next button*/
 .prev_next{
     text-decoration: none;
     color: rgb(129,191,176);
@@ -297,8 +291,6 @@ form div > input[type="button"]{
 }
 
 .topic{
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     margin-bottom: 2%;
     color: rgba(0,0,0,0.75);
@@ -316,7 +308,7 @@ form div > input[type="button"]{
 /* in tutorial questions */
 .legend{
     color: rgb(129,191,176);
-    width: 22vw;
+    width: 23vw;
     margin-bottom: 2%;
 }
 
@@ -325,37 +317,7 @@ form div > input[type="button"]{
     border-radius: 3px;
     background-color: white;
     color: black;
-    border: none;
-    border-bottom: 2px solid rgb(129,191,176); 
-    transition: background-color 1s ease;
-    margin-top: 1vh;
-    height: 3.5vh;
-}
-
-.btn:hover{
-    cursor: pointer;
-    background-color: rgba(129,191,176,0.4);
-}
-
-/* in tutorial start quiz button */
-.start_quiz{
-    text-align: center;
-}
-
-.start{
-    border-radius: 3px;
-    background-color: white;
-    border: none;
-    border-bottom: 2px solid orange; 
-    transition: background-color 1s ease;
-    height: 6vh;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.start:hover{
-    cursor: pointer;
-    background-color: orange;
+    border: 2px solid rgb(129,191,176); 
 }
 
 /* all tutorial questions as a whole*/
@@ -400,51 +362,18 @@ span{
     grid-gap: 0;
 }
 
-/* permission page
-output for change perimission interactivity*/
-.out{
-    margin-top: 2vh;
-    margin-bottom: 3vh;
-}
-
-.perm_acti{
-    width: 88%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.table{
-    width: 88%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* content citation and about us page */
-.other{
-    width: 63vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.us1{padding-left: 5%; border-left: 3px solid rgb(102,175,233);}
-.us2{padding-left: 5%; border-left: 3px solid rgb(129,191,176);}
-.us3{padding-left: 5%; border-left: 3px solid rgb(151,192,96);}
-.us4{padding-left: 5%; border-left: 3px solid orange;}
-
-.about{padding-left: 5%;}
-
 /*footer*/
 #copyright{    
     margin-top: 3vh;
     margin-bottom: 3vh;
     text-align: center;
-    padding: 14px 16px;
 }
+
 
 /* ============= START MEDIA QUERY CSS =============== */
 
 @media only screen and (min-width: 840px) {
-
+    
     /* Dropdown Content */
     nav ul li > ul {
         display: none;
@@ -465,7 +394,7 @@ output for change perimission interactivity*/
     nav li:hover {
         cursor: pointer;
     }
-
+    
     /* nav bar only button hover shading */
     nav li a:hover {
         background-color: #f7f7f7;
@@ -487,24 +416,23 @@ output for change perimission interactivity*/
     nav li ul a:hover {
         background-color: #f1f1f1;
     }
-
+    
 } /* end desktop nav css */
-
-
 
 @media only screen and (max-width: 840px) {
 
-    /* ========== START MOBILE NAV CSS ============= */
 
+    
+/* ========== START MOBILE NAV CSS ============= */
+    
     header {
         top: 0px;
         left: 0px;
         right: 0px;
         margin: 0;
         width: 100%;
-        overflow-y: scroll;
     }
-
+    
     /* adapt logo to mobile */
     #logo {
         position: absolute;
@@ -517,56 +445,31 @@ output for change perimission interactivity*/
         display: none;
         top: 5em;
     }
-
-    /* Mobile nav option styling */
-    nav > ul li {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        border-bottom: 1px solid #e8e8e8;
-    }
-
-    nav label {
-        width: 100%;
+    
+    nav > ul > li {
         display: flex;
         justify-content: center;
+        width: 100%;
+        border-bottom: 1px solid #EAEAEB;
     }
-
+    
     /* keeps button above menu */
     #button, #toggle {
         z-index: 5;
     }
 
     /* CSS for mobile menu options while open */
-
-    /* Show nav when icon is pressed */
+    
     #toggle:checked + #nav {
         display: block;
     }
 
-    nav ul li ul {
+    #toggle:checked + #nav ul {
+        display: inline;
+    }
+    
+    #toggle:checked + #nav ul li ul {
         display: none;
-    }
-
-    body :not(header) #toggle:checked {
-        display: none;
-    }
-
-    /* Display dropdown on mobile */
-    nav li.dropdown > input:checked ~ ul {
-        display: block;
-        background-color: #f2f2f2;
-    }
-
-    nav li.dropdown > input:checked + label {
-        border-bottom: 1px solid #e8e8e8;
-        background-color: #f7f7f7;
-    }
-
-    nav li.dropdown > input:checked ~ ul input:checked ~ ul {
-        display: block;
-        background-color: #e2e2e2;
     }
 
     /* open/close mobile nav button */
@@ -611,20 +514,8 @@ output for change perimission interactivity*/
     #branding {
         display: none;
     }
-
-    /* ========== END MOBILE NAV CSS ============= */
-
-    /* verify this is still needed, its not for nav */
-    .drawer-background {
-        background-color: green;
-        display: flex;
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        z-index: -10;
-    }
-
-    /* CSS for quizzes */
+	
+	/* CSS for quizzes */
     .container{
         width: 80vw;
         margin-left: auto;
@@ -656,6 +547,7 @@ output for change perimission interactivity*/
         margin-bottom: 15.5%;		
     }
 
+
     .quiz{
         width: 70vw;
         margin-left: auto;
@@ -669,39 +561,37 @@ output for change perimission interactivity*/
         margin-top: 3.5%;
         margin-bottom: 3.5%;
         visibility: hidden;
-        width: 60%;
+		width: 60%;
     }
+	
+	/* CSS for red x container */
+	.redX{
+		float: right;
+		width: 25%;
+		height: 25%;
+		left: 70%;
+		z-index: -100;
+	}
 
-    /* CSS for red x container */
-    .redX{
-        float: right;
-        width: 25%;
-        height: 15%;
-        left: 65%;
-        visibility: hidden;
-        position: absolute;
-    }
+	/* Red x inherits container size */
+	.redX img{
+		height: inherit;
+		width: inherit;
+	}
 
-    /* Red x inherits container size */
-    .redX img{
-        height: inherit;
-        width: inherit;
-    }
+	/* CSS for check mark */
+	.checks{
+		width: 25%;
+		height: 25%;
+		left: 70%;
+		z-index: -100;
+	}
 
-    /* CSS for check mark */
-    .checks{
-        width: 25%;
-        height: 15%;
-        left: 65%;
-        visibility: hidden;
-        position: absolute;
-    }
-
-    /* Check mark inherits container size */
-    .checks img{
-        height: inherit;
-        width: inherit;
-    }
+	/* Check mark inherits container size */
+	.checks img{
+		height: inherit;
+		width: inherit;
+	}
 
     /* The h1 elements on quizzes */
     .qh1{
@@ -712,40 +602,35 @@ output for change perimission interactivity*/
     .qh2{
         margin-left:8%;
         margin-top: 4%;
-        margin-right: 0;
+		margin-right: 0;
     }
 
     /* The p elements on quizzes */
     .qP{
         margin-left: 9%;
     }
+	
+	.buttonDiv{
+		text-align: center;
+		margin-bottom: 15%;
+	}
 
-    .buttonDiv{
-        text-align: center;
-        margin-bottom: 15%;
-    }
+	/* The radio button input elements on quizzes */
+	form div > input[type="radio"]{
+		margin-left: 11%;
+		margin-top: 1%;
+	}
+    
+/* ========== END MOBILE NAV CSS ============= */
 
-    /* The radio button input elements on quizzes */
-    form div > input[type="radio"]{
-        margin-left: 11%;
-        margin-top: 1%;
-    }
-
-    /* The submit button on quizzes */
-    form div > input[type="submit"]{
-        margin-top: 3%;
-        font-size: 12pt;
-        cursor: pointer;
-        border-radius: 8px;
-    }
-
-    /* The reload page button on quizzes */
-    form div > input[type="button"]{
-        margin-top: 3%;
-        margin-left: 1%;
-        font-size: 12pt;
-        cursor: pointer;
-        border-radius: 8px;
+    /* verify this is still needed, its not for nav */
+    .drawer-background {
+        background-color: green;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        z-index: -10;
     }
 
     /*index page*/
@@ -780,7 +665,6 @@ output for change perimission interactivity*/
     .empty3{display: none;}
 
     .content{
-        grid-gap: 3vh;
         grid-template-columns: 1fr;
         grid-template-areas:
             "main_title"
@@ -791,10 +675,6 @@ output for change perimission interactivity*/
     }
 
     /*    tutorial page*/
-    .topic{
-        width: 90%;
-    }
-
     .tutorial{width: 80vw;}
     .legend{width: 80vw;}
 
@@ -804,6 +684,7 @@ output for change perimission interactivity*/
     }
 
     .tuto_ques{
+        padding-top: 5%;
         border-top: 3px solid orange;
         margin-right: auto;
     }
@@ -811,21 +692,11 @@ output for change perimission interactivity*/
     .question{
         border-left: none;
         padding-left: 0;
-        margin-bottom: 5%;
+        margin-bottom: 7%;
     }
 
-    .btn{
-        height: 4vh;
-        border: 2px solid rgb(129,191,176); 
-    }
-
-    .start{
-        border: 2px solid orange; 
-        margin-top: 3vh;
-        font-weight: normal;
-    }
-
-    .tuto_pic{
+    /*unix navigation structure tree picture*/
+    #unix_nav_pic{
         width: 75vw;
         margin-left: 5vw;
         margin-right: 5vw;
@@ -838,13 +709,6 @@ output for change perimission interactivity*/
             "tuto_ques"
             "tran_btn";
     }
-
-    .other{
-        width: 75vw;
-    }
-    
-    #copyright{padding: 0;}
-
 } /* ========== END MOBILE MEDIA QUERY CSS ======== */
 
 @media only screen and (min-width: 601px) and (max-width: 950px) {}
