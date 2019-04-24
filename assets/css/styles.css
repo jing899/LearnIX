@@ -83,11 +83,6 @@ nav ul li {
     position: relative;
 }
 
-/* Breadcrumb style for displaying active page in nav */
-.active {
-    border-left: 2px solid orange;
-}
-
 #toggle{ 
     display: none; 
 }
@@ -465,6 +460,15 @@ span{
     nav li a:hover {
         background-color: #f7f7f7;
     }
+    
+    /* Breadcrumb style for displaying active page in nav */
+    .active {
+        border-left: 3px solid orange;
+    }
+
+    .top-level-active {
+        border-bottom: 3px solid orange;
+    }
 
     /* second level dropdown items */
     .dropdown > ul > li:hover ul {
@@ -541,8 +545,6 @@ span{
     nav ul li ul {
         display: none;
     }
-
-    
     
     /* Display dropdown on mobile */
     nav li.dropdown > input:checked ~ ul {

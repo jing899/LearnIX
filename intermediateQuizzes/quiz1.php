@@ -11,6 +11,7 @@ Authors: 	Rachael Bogdany
 	//include the header
 	$path = '../';
 	$page = 'Intermediate System Information Quiz';
+    $isQuiz = true;
 	include $path.'assets/inc/header.php';
 ?>
 

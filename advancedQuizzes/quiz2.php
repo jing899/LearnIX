@@ -10,7 +10,8 @@ Authors: 	Rachael Bogdany
 <?php
 	//include the header
 	$path = '../';
-	$page = 'Expert RegEx Quiz';
+	$page = 'Advanced RegEx Quiz';
+    $isQuiz = true;
 	include $path.'assets/inc/header.php';
 ?>
 

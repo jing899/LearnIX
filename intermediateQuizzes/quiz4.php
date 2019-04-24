@@ -11,6 +11,7 @@ Authors: 	Rachael Bogdany
 	//include the header
 	$path = '../';
 	$page = 'Intermediate Root Commands Quiz';
+    $isQuiz = true;
 	include $path.'assets/inc/header.php';
 ?>
 

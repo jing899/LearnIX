@@ -10,7 +10,8 @@ Authors: 	Rachael Bogdany
 <?php
 	//include the header
 	$path = '../';
-	$page = 'Intermediate SSH Quiz';
+	$page = 'Novice SSH Quiz';
+    $isQuiz = true;
 	include $path.'assets/inc/header.php';
 ?>
 

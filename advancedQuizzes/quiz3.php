@@ -10,7 +10,8 @@ Authors: 	Rachael Bogdany
 <?php
 	//include the header
 	$path = '../';
-	$page = 'Expert Users Quiz';
+	$page = 'Advanced Users Quiz';
+    $isQuiz = true;
 	include $path.'assets/inc/header.php';
 ?>
 <div class = "container">

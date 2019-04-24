@@ -11,6 +11,7 @@ Authors: 	Rachael Bogdany
 	//include the header
 	$path = '../';
 	$page = 'Novice File Structure and Comands Quiz';
+    $isQuiz = true;
 	include $path.'assets/inc/header.php';
 ?>
 <div class = "container">
