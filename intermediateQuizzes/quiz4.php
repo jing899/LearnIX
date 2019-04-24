@@ -33,7 +33,7 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q1">Question 1</h2>
 			<p class = "qP">What is the significance of having root level access?</p>
 			
-			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">The chnages can't be undone</label><br>
+			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">The changes can't be undone</label><br>
 			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check1"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a3"/> <label for="q1a3">The system can be locked forever</label><br>	
