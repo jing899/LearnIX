@@ -53,7 +53,11 @@ Shoujing Wu
                         </label>
                         <ul>
                             <li>
-                                <a>Novice &#9657;</a>
+                                <input id="quizzes-novice-btn" type="checkbox" name="menu"/>
+                                <label for="quizzes-novice-btn">
+                                    <a>Novice &#9657;</a>
+                                </label>
+                                
                                 <ul>
 									<li><a href="<?php echo $path;?>noviceQuizzes/quiz6.php">SSH Quiz</a></li>
                                     <li><a href="<?php echo $path;?>noviceQuizzes/quiz1.php">Navigation Quiz</a></li>
@@ -65,7 +69,10 @@ Shoujing Wu
                             </li>
 
                             <li>
-                                <a>Intermediate &#9657;</a>
+                                <input id="quizzes-intermediate-btn" type="checkbox" name="menu"/>
+                                <label for="quizzes-intermediate-btn">
+                                    <a>Intermediate &#9657;</a>
+                                </label>
                                 <ul>
                                     <li><a href="<?php echo $path;?>intermediateQuizzes/quiz1.php">System Information Quiz</a></li>
                                     <li><a href="<?php echo $path;?>intermediateQuizzes/quiz2.php">Pip/Yum Quiz</a></li>
@@ -76,7 +83,10 @@ Shoujing Wu
                             </li>
 
                             <li>
-                                <a>Advanced &#9657;</a>
+                                <input id="quizzes-advanced-btn" type="checkbox" name="menu"/>
+                                <label for="quizzes-advanced-btn">
+                                    <a>Advanced &#9657;</a>
+                                </label>
                                 <ul>
                                     <li><a href="<?php echo $path;?>advancedQuizzes/quiz1.php">Advanced Programs Quiz</a></li>
                                     <li><a href="<?php echo $path;?>advancedQuizzes/quiz2.php">Regular Expressions Quiz</a></li>

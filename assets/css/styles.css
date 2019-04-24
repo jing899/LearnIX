@@ -494,14 +494,19 @@ span{
     }
 
     /* Display dropdown on mobile */
-    nav input:checked ~ ul {
+    nav li.dropdown > input:checked ~ ul {
         display: block;
         background-color: #f2f2f2;
     }
     
-    nav input:checked + label {
+    nav li.dropdown > input:checked + label {
         border-bottom: 1px solid #e8e8e8;
         background-color: #f7f7f7;
+    }
+    
+    nav li.dropdown > input:checked ~ ul input:checked ~ ul {
+        display: block;
+        background-color: #e2e2e2;
     }
     
     /* open/close mobile nav button */
