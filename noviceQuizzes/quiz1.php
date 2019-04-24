@@ -74,7 +74,7 @@ Authors: 	Rachael Bogdany
 			<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">List dirs</label><br>
 			<div class="redX" id="x4"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check4"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question4" value = "correct" id="q4a2"/> <label for="q4a2">List -d</label><br>
+			<input type="radio" name ="question4" value = "correct" id="q4a2"/> <label for="q4a2">Ls -d</label><br>
 			<input type="radio" name ="question4" value = "q4a3" id="q4a3"/> <label for="q4a3">Listall</label><br>
 			<input type="radio" name ="question4" value = "q4a4" id="q4a4"/> <label for="q4a4">Listall -d /.</label><br>
 			<p class="helpText">Please review the man pages for proper command syntax</p>
