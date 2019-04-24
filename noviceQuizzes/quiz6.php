@@ -10,7 +10,7 @@ Authors: 	Rachael Bogdany
 <?php
 	//include the header
 	$path = '../';
-	$page = 'Intermediate Important Programs Quiz';
+	$page = 'Intermediate SSH Quiz';
 	include $path.'assets/inc/header.php';
 ?>
 
