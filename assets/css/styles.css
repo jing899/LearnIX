@@ -179,7 +179,7 @@ nav ul li {
 
 /* CSS for quiz scoreboard*/
 .scoreboard{
-	display: inline;
+    display: inline;
 }
 
 .quiz{
@@ -199,33 +199,33 @@ nav ul li {
 
 /* CSS for red x container */
 .redX{
-	float: right;
-	width: 20%;
-	height: 25%;
-	left: 57%;
-	visibility: hidden;
-	position: absolute;
+    float: right;
+    width: 20%;
+    height: 25%;
+    left: 57%;
+    visibility: hidden;
+    position: absolute;
 }
 
 /* Red x inherits container size */
 .redX img{
-	height: inherit;
-	width: inherit;
+    height: inherit;
+    width: inherit;
 }
 
 /* CSS for check mark */
 .checks{
-	width: 20%;
-	height: 25%;
-	left: 57%;
-	visibility: hidden;
-	position: absolute;
+    width: 20%;
+    height: 25%;
+    left: 57%;
+    visibility: hidden;
+    position: absolute;
 }
 
 /* Check mark inherits container size */
 .checks img{
-	height: inherit;
-	width: inherit;
+    height: inherit;
+    width: inherit;
 }
 
 /* The h1 elements on quizzes */
@@ -245,20 +245,20 @@ nav ul li {
 }
 
 .buttonDiv{
-	text-align: center;
-	margin-bottom: 5%;
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 /* The radio button input elements on quizzes */
 form div > input[type="radio"]{
-	margin-left: 11%;
-	margin-top: 1%;
+    margin-left: 11%;
+    margin-top: 1%;
 }
 
 /* The reload page button on quizzes */
 form div > input[type="button"]{
-	margin-left: 1%;
-	border-radius: 3px;
+    margin-left: 1%;
+    border-radius: 3px;
     background-color: white;
     color: black;
     border: 2px solid rgb(129,191,176);
@@ -291,6 +291,8 @@ form div > input[type="button"]{
 }
 
 .topic{
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     margin-bottom: 2%;
     color: rgba(0,0,0,0.75);
@@ -308,7 +310,7 @@ form div > input[type="button"]{
 /* in tutorial questions */
 .legend{
     color: rgb(129,191,176);
-    width: 23vw;
+    width: 22vw;
     margin-bottom: 2%;
 }
 
@@ -317,7 +319,35 @@ form div > input[type="button"]{
     border-radius: 3px;
     background-color: white;
     color: black;
-    border: 2px solid rgb(129,191,176); 
+    border: none;
+    border-bottom: 2px solid rgb(129,191,176);
+    transition: background-color 1s ease;
+    margin-top: 1vh;
+    height: 3.5vh;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(129,191,176,0.4);
+}
+
+/* in tutorial start quiz button*/
+.start_quiz{text-align: center;}
+
+.start{
+    border-radius: 3px;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid orange;
+    transition: background-color 1s ease;
+    height: 6vh;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.start:hover{
+    cursor: pointer;
+    background-color: orange;
 }
 
 /* all tutorial questions as a whole*/
@@ -362,18 +392,50 @@ span{
     grid-gap: 0;
 }
 
+/* permission page, output for change permission interactivity*/
+.out{
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.perm_acti{
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table{
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* content citation and about us page*/
+.other{
+    width: 63vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.us1{padding-left: 5%; border-left: 3px solid rgb(102,175,233);}
+.us2{padding-left: 5%; border-left: 3px solid rgb(129,191,176);}
+.us3{padding-left: 5%; border-left: 3px solid rgb(151,192,96);}
+.us4{padding-left: 5%; border-left: 3px solid orange;}
+
+.about{padding-left: 5%;}
+
 /*footer*/
 #copyright{    
     margin-top: 3vh;
     margin-bottom: 3vh;
     text-align: center;
+    padding: 14px 16px;
 }
-
 
 /* ============= START MEDIA QUERY CSS =============== */
 
 @media only screen and (min-width: 840px) {
-    
+
     /* Dropdown Content */
     nav ul li > ul {
         display: none;
@@ -394,7 +456,7 @@ span{
     nav li:hover {
         cursor: pointer;
     }
-    
+
     /* nav bar only button hover shading */
     nav li a:hover {
         background-color: #f7f7f7;
@@ -416,15 +478,13 @@ span{
     nav li ul a:hover {
         background-color: #f1f1f1;
     }
-    
+
 } /* end desktop nav css */
 
 @media only screen and (max-width: 840px) {
 
+    /* ========== START MOBILE NAV CSS ============= */
 
-    
-/* ========== START MOBILE NAV CSS ============= */
-    
     header {
         top: 0px;
         left: 0px;
@@ -432,7 +492,7 @@ span{
         margin: 0;
         width: 100%;
     }
-    
+
     /* adapt logo to mobile */
     #logo {
         position: absolute;
@@ -445,21 +505,21 @@ span{
         display: none;
         top: 5em;
     }
-    
+
     nav > ul > li {
         display: flex;
         justify-content: center;
         width: 100%;
         border-bottom: 1px solid #EAEAEB;
     }
-    
+
     /* keeps button above menu */
     #button, #toggle {
         z-index: 5;
     }
 
     /* CSS for mobile menu options while open */
-    
+
     #toggle:checked + #nav {
         display: block;
     }
@@ -467,7 +527,7 @@ span{
     #toggle:checked + #nav ul {
         display: inline;
     }
-    
+
     #toggle:checked + #nav ul li ul {
         display: none;
     }
@@ -514,8 +574,8 @@ span{
     #branding {
         display: none;
     }
-	
-	/* CSS for quizzes */
+
+    /* CSS for quizzes */
     .container{
         width: 80vw;
         margin-left: auto;
@@ -561,37 +621,37 @@ span{
         margin-top: 3.5%;
         margin-bottom: 3.5%;
         visibility: hidden;
-		width: 60%;
+        width: 60%;
     }
-	
-	/* CSS for red x container */
-	.redX{
-		float: right;
-		width: 25%;
-		height: 25%;
-		left: 70%;
-		z-index: -100;
-	}
 
-	/* Red x inherits container size */
-	.redX img{
-		height: inherit;
-		width: inherit;
-	}
+    /* CSS for red x container */
+    .redX{
+        float: right;
+        width: 25%;
+        height: 25%;
+        left: 70%;
+        z-index: -100;
+    }
 
-	/* CSS for check mark */
-	.checks{
-		width: 25%;
-		height: 25%;
-		left: 70%;
-		z-index: -100;
-	}
+    /* Red x inherits container size */
+    .redX img{
+        height: inherit;
+        width: inherit;
+    }
 
-	/* Check mark inherits container size */
-	.checks img{
-		height: inherit;
-		width: inherit;
-	}
+    /* CSS for check mark */
+    .checks{
+        width: 25%;
+        height: 25%;
+        left: 70%;
+        z-index: -100;
+    }
+
+    /* Check mark inherits container size */
+    .checks img{
+        height: inherit;
+        width: inherit;
+    }
 
     /* The h1 elements on quizzes */
     .qh1{
@@ -602,26 +662,26 @@ span{
     .qh2{
         margin-left:8%;
         margin-top: 4%;
-		margin-right: 0;
+        margin-right: 0;
     }
 
     /* The p elements on quizzes */
     .qP{
         margin-left: 9%;
     }
-	
-	.buttonDiv{
-		text-align: center;
-		margin-bottom: 15%;
-	}
 
-	/* The radio button input elements on quizzes */
-	form div > input[type="radio"]{
-		margin-left: 11%;
-		margin-top: 1%;
-	}
-    
-/* ========== END MOBILE NAV CSS ============= */
+    .buttonDiv{
+        text-align: center;
+        margin-bottom: 15%;
+    }
+
+    /* The radio button input elements on quizzes */
+    form div > input[type="radio"]{
+        margin-left: 11%;
+        margin-top: 1%;
+    }
+
+    /* ========== END MOBILE NAV CSS ============= */
 
     /* verify this is still needed, its not for nav */
     .drawer-background {
@@ -665,6 +725,7 @@ span{
     .empty3{display: none;}
 
     .content{
+        grid-gap: 3vh;
         grid-template-columns: 1fr;
         grid-template-areas:
             "main_title"
@@ -675,6 +736,8 @@ span{
     }
 
     /*    tutorial page*/
+
+    .topic{width: 90%;}
     .tutorial{width: 80vw;}
     .legend{width: 80vw;}
 
@@ -692,15 +755,23 @@ span{
     .question{
         border-left: none;
         padding-left: 0;
-        margin-bottom: 7%;
+        margin-bottom: 5%;
     }
 
-    /*unix navigation structure tree picture*/
-    #unix_nav_pic{
-        width: 75vw;
-        margin-left: 5vw;
-        margin-right: 5vw;
+    .btn{
+        height: 4vh;
+        border: 2px solid rgb(129,191,176);
     }
+
+    .start{
+        border: 2px solid orange;
+        margin-top: 3vh;
+        font-weight: normal;
+    }
+
+    .tuto_pic{width: 75vw;}
+
+    .other{width: 75vw;}
 
     .wrapper{
         grid-template-columns: 1fr;
@@ -709,6 +780,8 @@ span{
             "tuto_ques"
             "tran_btn";
     }
+
+    #copyright{padding: 0;}
 } /* ========== END MOBILE MEDIA QUERY CSS ======== */
 
 @media only screen and (min-width: 601px) and (max-width: 950px) {}
