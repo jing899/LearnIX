@@ -24,7 +24,7 @@ function validateQuiz() {
 
     //The folowing if statements check if the input is incorrect
     if(q1 != "correct") {
-        document.getElementsByTagName("label")[3].style.backgroundColor = "#7cfc00"; //Highlight correct option
+        document.getElementsByTagName("label")[11].style.backgroundColor = "#7cfc00"; //Highlight correct option
         document.getElementsByClassName("helpText")[0].style.visibility = "visible"; //Set help text visible
         document.getElementById("x1").style.visibility = "visible"; //Set red x visible
         document.getElementsByClassName("helpText")[0].style.backgroundColor = "#7cfc00"; //Highlight help text background
@@ -35,7 +35,7 @@ function validateQuiz() {
 
 
     if(q2 != "correct") {
-        document.getElementsByTagName("label")[5].style.backgroundColor = "#7cfc00";
+        document.getElementsByTagName("label")[13].style.backgroundColor = "#7cfc00";
         document.getElementsByClassName("helpText")[1].style.visibility = "visible";
         document.getElementById("x2").style.visibility = "visible";
         document.getElementsByClassName("helpText")[1].style.backgroundColor = "#7cfc00";
@@ -45,7 +45,7 @@ function validateQuiz() {
     }
 
     if(q3 != "correct") {
-        document.getElementsByTagName("label")[12].style.backgroundColor = "#7cfc00"; 
+        document.getElementsByTagName("label")[20].style.backgroundColor = "#7cfc00"; 
         document.getElementsByClassName("helpText")[2].style.visibility = "visible";
         document.getElementById("x3").style.visibility = "visible";
         document.getElementsByClassName("helpText")[2].style.backgroundColor = "#7cfc00";
@@ -55,7 +55,7 @@ function validateQuiz() {
     }
 
     if(q4 != "correct") {
-        document.getElementsByTagName("label")[14].style.backgroundColor = "#7cfc00";
+        document.getElementsByTagName("label")[22].style.backgroundColor = "#7cfc00";
         document.getElementsByClassName("helpText")[3].style.visibility = "visible";
         document.getElementById("x4").style.visibility = "visible";
         document.getElementsByClassName("helpText")[3].style.backgroundColor = "#7cfc00";
@@ -65,7 +65,7 @@ function validateQuiz() {
     }
 
     if(q5 != "correct") {
-        document.getElementsByTagName("label")[19].style.backgroundColor = "#7cfc00"; 
+        document.getElementsByTagName("label")[27].style.backgroundColor = "#7cfc00"; 
         document.getElementsByClassName("helpText")[4].style.visibility = "visible";
         document.getElementById("x5").style.visibility = "visible";
         document.getElementsByClassName("helpText")[4].style.backgroundColor = "#7cfc00";
