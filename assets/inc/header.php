@@ -33,7 +33,10 @@ Shoujing Wu
 
                     <!-- top level nav item -->
                     <li class="dropdown">
-                        <a>ABOUT</a>
+                        <input id="about-btn" type="checkbox" name="menu"/>
+                        <label for="about-btn">
+                            <a>ABOUT</a>
+                        </label>
                         <ul>
 							<li><a href="<?php echo $path;?>about/architecture.php">Unix Architecture</a></li>
                             <li><a href="<?php echo $path;?>about/kernelshell.php">Kernel v.s. Shell</a></li>
@@ -45,7 +48,10 @@ Shoujing Wu
 
                     <!-- top level nav item -->
 					<li class="dropdown">
-                        <a>QUIZZES</a>
+                        <input id="quizzes-btn" type="checkbox" name="menu"/>
+                        <label for="quizzes-btn">
+                            <a>QUIZZES</a>
+                        </label>
                         <ul>
                             <li>
                                 <a>Novice &#9657;</a>
@@ -54,8 +60,8 @@ Shoujing Wu
                                     <li><a href="<?php echo $path;?>noviceQuizzes/quiz1.php">Navigation Quiz</a></li>
                                     <li><a href="<?php echo $path;?>noviceQuizzes/quiz2.php">File Creation Quiz</a></li>
                                     <li><a href="<?php echo $path;?>noviceQuizzes/quiz3.php">Permissions Quiz</a></li>
-                                    <li><a href="<?php echo $path;?>noviceQuizzes/quiz4.php">Command Line Programs Quiz</a></li>
-                                    <li><a href="<?php echo $path;?>noviceQuizzes/quiz5.php">Basics Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>noviceQuizzes/quiz5.php">Command Line Programs Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>noviceQuizzes/quiz4.php">Basics Quiz</a></li>
                                 </ul>
                             </li>
 
@@ -80,13 +86,16 @@ Shoujing Wu
                                </ul>
                             </li>
                         </ul>
-                        <!--<input id="check02" type="checkbox" name="menu"/>
-                        <label for="check02" class="dropbtn">QUIZZES</label>-->
+                        
+                        
                     </li>
 
                     <!-- top level nav item -->
                     <li class="dropdown">
-                        <a>NOVICE</a>
+                        <input id="novice-btn" type="checkbox" name="menu"/>
+                        <label for="novice-btn">
+                            <a>NOVICE</a>
+                        </label>
                         <ul>
 							<li><a href="<?php echo $path;?>novice/ssh.php">SSH</a></li>
                             <li><a href="<?php echo $path;?>novice/navigation.php">Navigation</a></li>
@@ -99,7 +108,10 @@ Shoujing Wu
 
                     <!-- top level nav item -->
                     <li class="dropdown">
-                        <a>INTERMEDIATE</a>
+                        <input id="intermediate-btn" type="checkbox" name="menu"/>
+                        <label for="intermediate-btn">
+                            <a>INTERMEDIATE</a>
+                        </label>
                         <ul>
                             <li><a href="<?php echo $path;?>intermediate/systeminformation.php">System Information</a></li>
                             <li><a href="<?php echo $path;?>intermediate/pipyum.php">Pip/Yum</a></li>
@@ -111,7 +123,10 @@ Shoujing Wu
 
                     <!-- top level nav item -->
                     <li class="dropdown">
-                        <a>ADVANCED</a>
+                        <input id="advanced-btn" type="checkbox" name="menu"/>
+                        <label for="advanced-btn">
+                            <a>ADVANCED</a>
+                        </label>
                         <ul>
                             <li><a href="<?php echo $path;?>advanced/advancedprograms.php">Advanced Programs</a></li>
                             <li><a href="<?php echo $path;?>advanced/regularexpressions.php">Regular Expressions</a></li>

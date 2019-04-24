@@ -139,7 +139,7 @@ function expandHeader() {
     // open nav code:
     else {
         // 
-        document.getElementById("header").style.position = "absolute";
+        document.getElementById("header").style.position = "fixed";
         document.getElementById("header").style.height = "100%";
         // change icon
         document.getElementById("button").innerHTML = "&#10005;";
