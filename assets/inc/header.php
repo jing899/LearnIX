@@ -18,7 +18,7 @@ Shoujing Wu
         <script type="text/javascript" src="<?php echo $path;?>assets/js/main.js"></script>
     </head>
 
-    <body>
+    <body onresize="disableNav()">
         <header id="header">
             <div id="branding">
                 <img id="logo" src="<?php echo $path;?>assets/img/logo.png" alt="Logo"/>
