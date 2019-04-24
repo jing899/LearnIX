@@ -1,10 +1,10 @@
 <!-- LEARNIX 
-	
+
 Filename:	quiz4.php
 Authors: 	Rachael Bogdany
 			Jon Healy
 			Lowell Pence
-			Shoujing Wu 
+			Shoujing Wu
 -->
 
 <?php
@@ -23,22 +23,22 @@ Authors: 	Rachael Bogdany
 		<!--
 			The naming convention for quiz question id's is as follows: Question # Answer #
 			For example Question 2 Answer 4's id would be: "q2a4"
-			
+
 			The logic behind this is that it matches the value so when java script is validating...
 			it can determine which choices were choosen correctly and incorrectly and display this to the user.
 			More can be seen on this in the validateQuiz function in the file assets/script/main.js
-			
+
 			The text boxes display a message to the user on what they got wrong and how they can lookup the correct answer
-		-->	
+		-->
 		<div id = "first">
 			<h2 class="qh2" id="q1">Question 1</h2>
 			<p class = "qP">What is the curl tool used for?</p>
-			
+
 			<input type="radio" name ="question1" value = "q1a1" id="q1a1"/> <label for="q1a1">It's used in NAT translation</label><br>
 			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check1"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Encrypts data sent to tbe server</label><br>
-			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">CLI tool for making http requests</label><br>			
+			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">Download files and webpage content</label><br>
 			<input type="radio" name ="question1" value = "q1a3" id="q1a3"/> <label for="q1a3">Concats file contents</label><br>
 			<p class="helpText">Curl is a command line tool for making requests over HTTP(s)</p>
 		</div>
@@ -46,7 +46,7 @@ Authors: 	Rachael Bogdany
 		<div id = "second">
 			<h2 class="qh2" id="q2">Question 2</h2>
 			<p class="qP">Which is the command to terminate a proccess?</p>
-			
+
 			<input type="radio" name ="question2" value = "correct" id="q2a1"/> <label for="q2a1">Kill {proccess/pid}</label><br>
 			<div class="redX" id="x2"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check2"><img src="../assets/img/check.png" alt="Check Mark"></div>
@@ -59,7 +59,7 @@ Authors: 	Rachael Bogdany
 		<div id = "third">
 			<h2 class="qh2" id="q3">Question 3</h2>
 			<p class="qP">What is the function of the diff command?</p>
-			
+
 			<input type="radio" name ="question3" value = "q3a1" id="q3a1"/> <label for="q3a1">Shows permission differences</label><br>
 			<div class="redX" id="x3"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check3"><img src="../assets/img/check.png" alt="Check Mark"></div>
@@ -72,7 +72,7 @@ Authors: 	Rachael Bogdany
 		<div id = "fourth">
 			<h2 class="qh2" id="q4">Question 4</h2>
 			<p class="qP">What is egrep?</p>
-			
+
 			<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">Updated version of grep</label><br>
 			<div class="redX" id="x4"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check4"><img src="../assets/img/check.png" alt="Check Mark"></div>
@@ -85,7 +85,7 @@ Authors: 	Rachael Bogdany
 		<div id = "fifth">
 			<h2 class="qh2" id="q5">Question 5</h2>
 			<p class="qP">Which are examples of wildcards?</p>
-	
+
 			<input type="radio" name ="question5" value = "q5a1" id="q5a1"/> <label for="q5a1">Var x, var y, var z</label><br>
 			<div class="redX" id="x5"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check5"><img src="../assets/img/check.png" alt="Check Mark"></div>
