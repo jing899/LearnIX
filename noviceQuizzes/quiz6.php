@@ -70,7 +70,7 @@ Authors: 	Rachael Bogdany
 
 		<div id = "fourth">
 			<h2 class="qh2" id="q4">Question 4</h2>
-			<p class="qP">What is an example of a file transfer application</p>
+			<p class="qP">What is an example of a file transfer application?</p>
 			
 			<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">Putty</label><br>
 			<div class="redX" id="x4"><img src="../assets/img/redX.png" alt="Red X"></div>
