@@ -20,10 +20,6 @@ body {
     width: 3em;
 }
 
-.dropdown > input {
-    display: none;
-}
-
 #h1 {
     float: left;
 }
@@ -82,12 +78,14 @@ nav ul li {
     position: relative;
 }
 
-
+/* hide checkbox */
+nav input {
+    display: none;
+}
 
 #toggle{ 
     display: none; 
 }
-
 
 /* ============= END GLOBAL NAV CSS =============== */
 
@@ -433,10 +431,10 @@ span{
     
 } /* end desktop nav css */
 
+
+
 @media only screen and (max-width: 840px) {
-
-
-    
+  
 /* ========== START MOBILE NAV CSS ============= */
     
     header {
@@ -445,6 +443,7 @@ span{
         right: 0px;
         margin: 0;
         width: 100%;
+        overflow-y: scroll;
     }
     
     /* adapt logo to mobile */
@@ -460,11 +459,19 @@ span{
         top: 5em;
     }
     
-    nav > ul > li {
+    /* Mobile nav option styling */
+    nav > ul li {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         width: 100%;
-        border-bottom: 1px solid #EAEAEB;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    
+    nav label {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     
     /* keeps button above menu */
@@ -474,18 +481,35 @@ span{
 
     /* CSS for mobile menu options while open */
     
+    /* Show nav when icon is pressed */
     #toggle:checked + #nav {
         display: block;
     }
 
-    #toggle:checked + #nav ul {
-        display: inline;
+    nav ul li ul {
+        display: none;
     }
     
-    #toggle:checked + #nav ul li ul {
+    body :not(header) #toggle:checked {
         display: none;
     }
 
+    /* Display dropdown on mobile */
+    nav li.dropdown > input:checked ~ ul {
+        display: block;
+        background-color: #f2f2f2;
+    }
+    
+    nav li.dropdown > input:checked + label {
+        border-bottom: 1px solid #e8e8e8;
+        background-color: #f7f7f7;
+    }
+    
+    nav li.dropdown > input:checked ~ ul input:checked ~ ul {
+        display: block;
+        background-color: #e2e2e2;
+    }
+    
     /* open/close mobile nav button */
     #button {
         position: absolute;

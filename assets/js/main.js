@@ -139,13 +139,24 @@ function expandHeader() {
     // open nav code:
     else {
         // 
-        document.getElementById("header").style.position = "absolute";
+        document.getElementById("header").style.position = "fixed";
         document.getElementById("header").style.height = "100%";
         // change icon
         document.getElementById("button").innerHTML = "&#10005;";
         // animate button sliding
         document.getElementById("button").className = "button-activate";
     }
+}
+
+// close mobile nav
+function disableNav() {
+    document.getElementById("toggle").checked = false;
+    document.getElementById("header").style.position = "static";
+    document.getElementById("header").style.height = "100px";
+    // change icon
+    document.getElementById("button").innerHTML = "&#9776;";
+    // animate button sliding
+    document.getElementById("button").className = "button-deactivate";
 }
 
 /*
