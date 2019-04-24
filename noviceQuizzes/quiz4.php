@@ -10,7 +10,7 @@ Authors: 	Rachael Bogdany
 <?php
 	//include the header
 	$path = '../';
-	$page = 'Novice Important Programs Quiz';
+	$page = 'Novice Command Line Programs Quiz';
 	include $path.'assets/inc/header.php';
 ?>
 
@@ -18,7 +18,7 @@ Authors: 	Rachael Bogdany
 	<form onsubmit="return false;" name="quiz" action="#" method="get">
 
 			<div><h2 id="scorebaord"></h2></div>
-			<h1 class="qh1">Novice Important Programs Quiz</h1>
+			<h1 class="qh1">Novice Command Line Programs Quiz</h1>
 			<!--
 				The naming convention for quiz question id's is as follows: Question # Answer #
 				For example Question 2 Answer 4's id would be: "q2a4"
@@ -37,8 +37,8 @@ Authors: 	Rachael Bogdany
 			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check1"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Just Vi and Vim </label><br>	
-			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">All of the above</label><br>
 			<input type="radio" name ="question1" value = "q1a3" id="q1a3"/> <label for="q1a3">Just vim and nano</label><br>
+			<input type="radio" name ="question1" value = "correct" id="q1a4"/> <label for="q1a4">All of the above</label><br>
 			<p class="helpText">All of the above are comand line text editors</p>
 		</div>
 		
