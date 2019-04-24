@@ -78,7 +78,7 @@ Shoujing Wu
                                     <li><a href="<?php echo $path;?>intermediateQuizzes/quiz2.php">Pip/Yum Quiz</a></li>
                                     <li><a href="<?php echo $path;?>intermediateQuizzes/quiz3.php">Processes Quiz</a></li>
                                     <li><a href="<?php echo $path;?>intermediateQuizzes/quiz4.php">Root Level Quiz</a></li>
-                                    <li><a href="<?php echo $path;?>intermediateQuizzes/quiz6.php">Commands Quiz</a></li>
+                                    <li><a href="<?php echo $path;?>intermediateQuizzes/quiz5.php">Commands Quiz</a></li>
                                 </ul>
                             </li>
 
