@@ -24,7 +24,7 @@ Shoujing Wu
                 <img id="logo" src="<?php echo $path;?>assets/img/logo.png" alt="Logo"/>
             </div>
             <label id="button" for="toggle">&#9776;</label>
-            <input type="checkbox" id="toggle" onclick="expandHeader()" autocomplete="off"/>
+            <input type="checkbox" id="toggle" onclick="expandHeader()"/>
 		    <nav id="nav">
                 <!-- top level nav bar -->
                 <ul>

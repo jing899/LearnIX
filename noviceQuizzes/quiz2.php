@@ -63,8 +63,8 @@ Authors: 	Rachael Bogdany
 			<div class="checks" id="check3"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question3" value = "q3a2" id="q3a2"/> <label for="q3a2">Rn file1 file2</label><br>
 			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3"></label>Change file1 file2<br>
-			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">Rename file1 file2</label><br>
-			<p class="helpText">Please review the "rename" man pages for proper command syntax</p>
+			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">mv file1 file2</label><br>
+			<p class="helpText">Please review the "mv" man pages for proper command syntax</p>
 		</div>
 			
 		<div id = "fourth">
