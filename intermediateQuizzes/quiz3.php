@@ -39,8 +39,8 @@ Authors: 	Rachael Bogdany
 			<input type="radio" name ="question1" value = "q1a1" id="q1a1"/> <label for="q1a1">System Software</label><br>
 			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check1"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Background software</label><br>	
-			<input type="radio" name ="question1" value = "correct" id="q1a3"/> <label for="q1a3">Current executing program</label><br>
+			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Any software</label><br>	
+			<input type="radio" name ="question1" value = "correct" id="q1a3"/> <label for="q1a3">A executing program</label><br>
 			<input type="radio" name ="question1" value = "q1a4" id="q1a4"/> <label for="q1a4">Any executable application</label><br>
 			<p class="helpText">Please review the definition of a process</p>
 		</div>
@@ -67,7 +67,7 @@ Authors: 	Rachael Bogdany
 			<div class="redX" id="x3"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check3"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question3" value = "q3a2" id="q3a2"/> <label for="q3a2">GetAll -pInfo</label><br>
-			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">ShowAll -processesInfo</label><br>
+			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">Show -processesInfo</label><br>
 			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">Ps -ag</label><br>
 			<p class="helpText">please review the "ps" man page for the correct command syntax</p>
 		</div>

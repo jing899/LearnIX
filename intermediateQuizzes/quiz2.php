@@ -66,7 +66,7 @@ Authors: 	Rachael Bogdany
 			<div class="redX" id="x3"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check3"><img src="../assets/img/check.png" alt="Check Mark"></div>
 			<input type="radio" name ="question3" value = "q3a2" id="q3a2"/> <label for="q3a2">Viruses</label><br>
-			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">System security updates</label><br>
+			<input type="radio" name ="question3" value = "q3a3" id="q3a3"/> <label for="q3a3">Security updates</label><br>
 			<input type="radio" name ="question3" value = "correct" id="q3a4"/> <label for="q3a4">Packages</label><br>
 			<p class="helpText">Remmeber, Pip installs packages on the host, yum installs applcations</p>
 		</div>
@@ -78,8 +78,8 @@ Authors: 	Rachael Bogdany
 			<input type="radio" name ="question4" value = "q4a1" id="q4a1"/> <label for="q4a1">Yum get chrome</label><br>
 			<div class="redX" id="x4"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check4"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question4" value = "correct" id="q4a2"/> <label for="q4a2">Yum update -y chrome</label><br>
-			<input type="radio" name ="question4" value = "q4a3" id="q4a3"/> <label for="q4a3">Yum grab chrome -update</label><br>
+			<input type="radio" name ="question4" value = "correct" id="q4a2"/> <label for="q4a2">Yum update chrome</label><br>
+			<input type="radio" name ="question4" value = "q4a3" id="q4a3"/> <label for="q4a3">Yum chrome -update</label><br>
 			<input type="radio" name ="question4" value = "q4a4" id="q4a4"/> <label for="q4a4">Yum -getLatest chrome</label><br>
 			<p class="helpText">Please review the "yum" man pages for proper command syntax</p>
 		</div>

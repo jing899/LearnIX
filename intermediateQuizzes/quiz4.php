@@ -19,7 +19,7 @@ Authors: 	Rachael Bogdany
 	<form onsubmit = "return false;" name = "quiz" action="#" method = "get">
 
 		<div><h2 id="scorebaord"></h2></div>
-		<h1 class="qh1">Intermediate Root Commands Quiz</h1>
+		<h1 class="qh1">Intermediate Root Level Quiz</h1>
         <h4 class="topic"><a class="prev_next" href="../intermediate/rootlevel.php"> &larr; Review </a> <a class="prev_next" href="../intermediate/commands.php"> Next Tutorial &rarr; </a>
 </h4>
 		<!--
@@ -36,10 +36,10 @@ Authors: 	Rachael Bogdany
 			<h2 class="qh2" id="q1">Question 1</h2>
 			<p class = "qP">What is the significance of having root level access?</p>
 			
-			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">The changes can't be undone</label><br>
+			<input type="radio" name ="question1" value = "q1a2" id="q1a2"/> <label for="q1a2">Changes can't be undone</label><br>
 			<div class="redX" id="x1"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check1"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question1" value = "q1a2" id="q1a3"/> <label for="q1a3">The system can be locked forever</label><br>	
+			<input type="radio" name ="question1" value = "q1a2" id="q1a3"/> <label for="q1a3">System can be locked forever</label><br>	
 			<input type="radio" name ="question1" value = "correct" id="q1a1"/> <label for="q1a1">Changes can affect the whole system</label><br>
 			<input type="radio" name ="question1" value = "q1a2" id="q1a4"/> <label for="q1a4">There is nothing significant</label><br>		
 			<p class="helpText">Remember, changes made as the root user afftect the whole system</p>
