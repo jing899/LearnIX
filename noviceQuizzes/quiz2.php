@@ -19,6 +19,8 @@ Authors: 	Rachael Bogdany
 		
 		<div><h2 id="scorebaord"></h2></div>
 		<h1 class="qh1">Novice File Creation and Commands Quiz</h1>
+               <h4 class="topic"><a class="prev_next" href="../novice/filecreation.php"> &larr; Review </a> <a class="prev_next" href="../novice/permissions.php"> Next Tutorial &rarr; </a>
+        </h4>
 		<!--
 			The naming convention for quiz question id's is as follows: Question # Answer #
 			For example Question 2 Answer 4's id would be: "q2a4"
@@ -95,7 +97,7 @@ Authors: 	Rachael Bogdany
 		</div>
 		
 		<div class="buttonDiv">
-			<input type="submit" name="Submit" onclick="validateQuiz()"  value="Send"/>
+			<input class="start" type="submit" name="Submit" onclick="validateQuiz()"  value="Send"/>
 			<input type="button" name="Reload" onclick="document.location.reload(true); window.scrollTo(0,0);" value="Retry Quiz"/>
 		</div>
 	</form>
