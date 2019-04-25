@@ -52,9 +52,9 @@ Authors: 	Rachael Bogdany
 			<input type="radio" name ="question2" value = "correct" id="q2a1"/> <label for="q2a1">VI improved</label><br>
 			<div class="redX" id="x2"><img src="../assets/img/redX.png" alt="Red X"></div>
 			<div class="checks" id="check2"><img src="../assets/img/check.png" alt="Check Mark"></div>
-			<input type="radio" name ="question2" value = "q2a2" id="q2a2"/> <label for="q2a2">The predacessor to Vi</label><br>
+			<input type="radio" name ="question2" value = "q2a2" id="q2a2"/> <label for="q2a2">A predacessor to Vi</label><br>
 			<input type="radio" name ="question2" value = "q2a3" id="q2a3"/> <label for="q2a3">A non CLI text editor</label><br>
-			<input type="radio" name ="question2" value = "q2a4" id="q2a4"/> <label for="q2a4">A CLI program to read binary files</label><br>
+			<input type="radio" name ="question2" value = "q2a4" id="q2a4"/> <label for="q2a4">CLI program to read binary files</label><br>
 			<p class="helpText">Remember, Vim is VI improved and can be a standalone app as well as a GUI</p>
 		</div>
 		
