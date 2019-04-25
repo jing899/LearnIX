@@ -9,7 +9,7 @@ Authors: 	Rachael Bogdany
 	
 	<footer id="copyright">
         
-        <p>&copy; LearnIX</p>
+        <p>&copy; 2019 LearnIX</p>
         <a href="<?php echo $path;?>about/aboutus.php">About Us</a>
         
     </footer>
