@@ -92,7 +92,7 @@ function validatePermissions(){
 		if(str.match("^[0-9]*$")){
 			var num = parseInt(str);
 			document.getElementById('error').style.display = 'none';
-			if(num < 777){
+			if(num <= 777){
 				for(i = 0; i < str.length; i++){
 					if(str[i] < 0 || str[i] > 7){
 						document.getElementById('error').innerHTML = 'Can only enter numbers between 0 and 7';
