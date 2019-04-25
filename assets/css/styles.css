@@ -47,8 +47,8 @@ nav input {
 header {
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-bottom: 3vh;
-    margin-top: 3vh;
+    margin-bottom: 3em;
+    margin-top: 3em;
     width: 80%;
     height: 100px;
     background-color: white;
@@ -432,8 +432,8 @@ span{
 
 /*footer*/
 #copyright{    
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-top: 3em;
+    margin-bottom: 3em;
     text-align: center;
     padding: 14px 16px;
 }
