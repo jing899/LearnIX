@@ -266,7 +266,7 @@ form div > input[type="radio"]{
 /* The reload page button on quizzes */
 form div > input[type="button"]{
     border-radius: 3px;
-    background-color: white;
+    background-color: rgb(252,252,252);
     border: none;
     border-bottom: 2px solid rgb(129,191,176);
     transition: background-color 1s ease;
@@ -334,7 +334,7 @@ form div > input[type="button"]:hover{
 /* in tutorial question submit button*/
 .btn{
     border-radius: 3px;
-    background-color: white;
+    background-color: rgb(252,252,252);
     color: black;
     border: none;
     border-bottom: 2px solid rgb(129,191,176);
@@ -353,7 +353,7 @@ form div > input[type="button"]:hover{
 
 .start{
     border-radius: 3px;
-    background-color: white;
+    background-color: rgb(252,252,252);
     border: none;
     border-bottom: 2px solid orange;
     transition: background-color 1s ease;
