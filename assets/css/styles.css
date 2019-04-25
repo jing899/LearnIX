@@ -822,5 +822,12 @@ span{
     #copyright{padding: 0;}
 } /* ========== END MOBILE MEDIA QUERY CSS ======== */
 
+@media only screen and (max-width: 430px) {
+    #perm {
+        width: 4em;
+        outline: 1px solid orange;
+    }
+}
+
 
 /* ============= END MEDIA QUERY CSS =============== */
