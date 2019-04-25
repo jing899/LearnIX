@@ -19,7 +19,7 @@ Authors: 	Rachael Bogdany
 	<form onsubmit = "return false;" name = "quiz" action="#" method = "get">
 
 		<div><h2 id="scorebaord"></h2></div>
-		<h1 class="qh1">Intermediate Root Commands Quiz</h1>
+		<h1 class="qh1">Intermediate Commands Quiz</h1>
         <h4 class="topic"><a class="prev_next" href="../intermediate/commands.php"> &larr; Review </a> <a class="prev_next" href="../advanced/advancedprograms.php"> Next Tutorial &rarr; </a>
 </h4>
 		<!--
