@@ -32,7 +32,7 @@ Shoujing Wu
                 <!-- top level nav bar -->
                 <ul>
                     <!-- top level nav item -->
-                    <li><a href="<?php echo $path;?>index.php">HOME</a></li>
+                    <li><a href="<?php echo $path;?>index.php" <?php echo(($page == 'Homepage') ?' class="top-level-active"':'');?>>HOME</a></li>
 
                     <!-- top level nav item -->
                     <li class="dropdown">
