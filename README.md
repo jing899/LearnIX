@@ -5,8 +5,11 @@
 ## Authors
 
 Rachael Bogdany 
+<br/>
 Jon Healy 
+<br/>
 Lowell Pence 
+<br/>
 Shoujing Wu
 
 ## Introduction 
